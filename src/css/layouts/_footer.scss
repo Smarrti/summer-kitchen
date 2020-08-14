@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  margin: 50px 0 20px 0;
+  padding-top: 20px;
+  font-size: 1.4rem;
+  border-top: 4px solid $color-text;
+  &__links {
+    list-style: none;
+  }
+  &__link,
+  &__schedule > * {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: $color-text;
+    & > a {
+      text-decoration: none;
+      color: $color-text;
+    }
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & > *:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
