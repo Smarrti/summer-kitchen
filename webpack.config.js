@@ -150,6 +150,10 @@ const config = {
       template: './src/index.html',
       filename: './index.html'
     }),
+    new HtmlWebPackPlugin({
+      template: './src/about/index.html',
+      filename: './about/index.html'
+    }),
     new CopyWebpackPlugin([
       {
         from: './src/assets',
