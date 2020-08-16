@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 92px;
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    list-style: none;
+  }
+  &__link {
+    & > a {
+      font-size: 1.8rem;
+      text-decoration: none;
+      color: $color-text;
+    }
+  }
+}

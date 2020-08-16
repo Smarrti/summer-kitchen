@@ -1,0 +1,37 @@
+.team-content {
+  margin-top: 60px;
+  &__header {
+    @extend %text-header;
+    margin-bottom: 60px;
+  }
+  &__person {
+    display: flex;
+    flex-direction: column;
+    & > h2 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+    & > p {
+      font-size: 1.8rem;
+    }
+  }
+  &__quote {
+    display: flex;
+    align-items: flex-end;
+    flex: 1 0 auto;
+    font-size: 1.8rem;
+    & > p {
+      display: flex;
+      & > span {
+        margin-right: 7px;
+        border-right: 8px solid $color-text;
+      }
+    }
+  }
+  &__description {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+}

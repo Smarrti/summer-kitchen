@@ -1,0 +1,13 @@
+.button {
+  padding: 8px 14px;
+  background: rgba(43, 30, 35, 0.44);
+  color: $color-header-text;
+  text-decoration: none;
+  font-size: 1.8rem;
+  &_big {
+    padding: 11px 15px;
+  }
+  &_red {
+    background: $color-primary;
+  }
+}

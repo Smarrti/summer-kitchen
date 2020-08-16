@@ -1,0 +1,22 @@
+.layout-2-columns {
+  display: grid;
+  grid-template-columns: 49% 50%;
+  grid-column-gap: 10px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.layout-3-columns {
+  display: grid;
+  grid-template-columns: 33% 32% 33%;
+  grid-column-gap: 10px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.layout-4-columns {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 25%;
+  grid-column-gap: 10px;
+  width: 100%;
+}

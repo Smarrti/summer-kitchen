@@ -1,0 +1,23 @@
+.about-content {
+  margin-top: 60px;
+  &__header {
+    @extend %text-header;
+  }
+  &__subheader {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+  }
+  &__text,
+  &__list {
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+    list-style: none;
+  }
+  &__list {
+    margin-top: 10px;
+  }
+  &__marker {
+    font-weight: 700;
+    color: $color-primary;
+  }
+}

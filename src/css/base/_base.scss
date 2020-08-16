@@ -14,9 +14,13 @@ html {
 }
 
 body {
+  
+  width: 1080px;
+  margin: 0 auto;
   font-family: "Lato", sans-serif;
   line-height: 1.2;
-  color: #2b1e23;
-  background-color: #ffffff;
-  -webkit-font-smoothing: antialiased;
+  color: $color-text;
+  @include media-full-adaptive {
+    width: 95%;
+  }
 }
