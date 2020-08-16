@@ -3,6 +3,20 @@
   padding: 0;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.2;
+  color: #2b1e23;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
 }

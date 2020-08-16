@@ -1,0 +1,36 @@
+// Reviews
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__item {
+    position: relative;
+    margin: 0 auto 40px;
+    padding: 25px 15px 25px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    min-height: 180px;
+    border: 6px solid #c90000;
+}
+
+.reviews__photo {
+    position: absolute;
+    top: 50%;
+    left: -64px;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.reviews__text {
+    margin-left: 64px;
+    margin-bottom: 12px;
+}
+
+.reviews__author {
+    margin-left: 64px;
+}
