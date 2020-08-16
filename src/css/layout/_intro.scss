@@ -1,0 +1,78 @@
+// Intro
+
+.intro {
+    height: 100vh;
+    background: url("../assets/intro_bg.jpg") center no-repeat #2b1e23;
+    background-size: cover;
+}
+
+.intro__inner {
+    padding-top: 100px;
+}
+
+.intro__title {
+    margin-top: 42px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.title__company-name {
+    margin-right: 15px;
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+.intro__text {
+    margin-top: 45px;
+    max-width: 50%;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.intro__buttons {
+    max-width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.intro__btn {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background: rgba(43, 30, 35, 0.44);
+}
+
+.intro__btn:first-child {
+    margin-left: 0;
+}
+
+.btn--red:hover,
+.btn--gray:hover {
+    background: linear-gradient(180deg, #2b1e23 0%, #2b1e23 100%);
+}
+
+.intro__statistics {
+    margin-top: 170px;
+    display: flex;
+}
+
+.stat__item {
+    margin-left: 65px;
+}
+
+.stat__item:first-child {
+    margin-left: 0;
+}
+
+.stat__counter {
+    font-size: 3.6rem;
+    color: #ffffff;
+}
+
+.stat__text {
+    margin-top: 5px;
+    color: #ffffff;
+}
