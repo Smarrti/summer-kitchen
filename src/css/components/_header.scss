@@ -8,12 +8,18 @@
     justify-content: space-between;
     width: 700px;
     list-style: none;
+    @include media-desktop {
+      width: auto;
+    }
   }
   &__link {
     & > a {
       font-size: 1.8rem;
       text-decoration: none;
       color: $color-text;
+    }
+    &:not(:last-child) {
+      margin-right: 10px;
     }
   }
 }
