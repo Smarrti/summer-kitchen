@@ -1,8 +1,3 @@
-p {
-    margin: 0 0 10px;
-    font-size: 1.8rem;
-}
-
 .page {
     overflow: hidden;
     display: flex;
@@ -17,16 +12,4 @@ p {
     padding: 0 15px;
     width: 100%;
     max-width: 1110px;
-}
-
-// Button btn--
-
-.btn--big {
-    padding: 10px 15px;
-    width: 200px;
-}
-
-.btn--red {
-    background: linear-gradient(180deg, #c90000 0%, #910000 100%);
-    transition: background 0.1s linear;
 }

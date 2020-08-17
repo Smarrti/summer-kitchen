@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.scss">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <title>Кастом мастерская SOKOL</title>
 </head>
-
 <body>
   <!-- Sprites -->
   <!-- FB -->
@@ -43,42 +40,36 @@
 
 
   <div class="page">
-    <!-- Header -->
-    <header class="header">
-      <div class="header__inner">
-        <img class="header__logo logo" src="./assets/logo_white.png" alt="">
-        <nav class="nav">
-          <a href="#" class="nav__link">О мастерской</a>
-          <a href="#" class="nav__link">Услуги</a>
-          <a href="#" class="nav__link">Реализованные проекты</a>
-          <a href="#" class="nav__link">Контакты</a>
-          <a href="#" class="nav__link btn--red btn--big">ОСТАВИТЬ ЗАЯВКУ</a>
-        </nav>
-      </div>
-    </header>
-
     <main class="main">
       <!-- Intro -->
       <div class="intro__wrapper">
-        <div class="intro">
+        <div class="intro"> 
+          <header class="header header_on-main">
+            <a class="header__logo" href="./index.html" alt="Главная страница">
+              <img src="./assets/logo_white.png" alt="Логотип">
+            </a>
+            <ul class="header__links">
+              <li class="header__link"><a href="./about.html">О мастерской</a></li>
+              <li class="header__link"><a href="#">Услуги</a></li>
+              <li class="header__link"><a href="#">Реализованные проекты</a></li>
+              <li class="header__link"><a href="#">Контакты</a></li>
+            </ul>
+            <a class="header__link button button_red button_big" href="#">Оставить заявку</a>
+          </header>
           <div class="container">
             <div class="intro__inner">
               <h1 class="intro__title">
                 <span class="title__company-name">Sokol</span> Кастом мастерская мотоциклов
               </h1>
-
-              <div class="intro__text">
-                <p>
-                  Превращаем идеи в результат, демонстрируя быструю и качественную работу. Для Вас мы создадим кастом на
-                  базе
-                  любого мотоцикла. Поможем обрести мечту, создать уникальный байк, стилизовать его исключительно под
-                  Вас.
-                </p>
-              </div>
-
+              <p class="intro__text">
+                Превращаем идеи в результат, демонстрируя быструю и качественную работу. Для Вас мы создадим кастом на
+                базе
+                любого мотоцикла. Поможем обрести мечту, создать уникальный байк, стилизовать его исключительно под
+                Вас.
+              </p>
               <div class="intro__buttons">
-                <a class="intro__btn btn btn--gray" href="#">Далее</a>
-                <a class="intro__btn btn btn--red" href="#">Кастом</a>
+                <a class="intro__btn button" href="#">Далее</a>
+                <a class="intro__btn button button_red" href="#">Кастом</a>
               </div>
 
               <div class="intro__statistics">
@@ -100,14 +91,13 @@
           </div>
         </div>
       </div>
-
       <!-- Feedback -->
       <div class="feedback">
         <div class="container">
           <div class="feedback__inner">
-            <div class="feedback__block feedback__text">
-              <p>Есть вопросы?</p>
-              <p>Оставьте свои контакты и мы Вам перезвоним!</p>
+            <div class="feedback__block">
+              <p class="feedback__text">Есть вопросы?</p>
+              <p class="feedback__text">Оставьте свои контакты и мы Вам перезвоним!</p>
             </div>
 
             <!-- Form -->
@@ -116,7 +106,6 @@
                 <img class="dots__item dots__form" src="./assets/dots/dots_form.png" alt="">
                 <div class="form__title">ОБРАТНАЯ СВЯЗЬ</div>
                 <div class="form__fields">
-
                   <div class="form__group">
                     <input class="form__input" type="text" name="name" id="feedback__name" placeholder="Имя*" required>
                     <!-- <label class="form__label" for="feedback__name"></label> -->
@@ -132,19 +121,17 @@
                     <!-- <label class="form__label" for="feedback__email"></label> -->
                   </div>
 
-                  <button class="form__button" type="submit">Отправить</button>
+                  <button class="form__button button button_red button_longer" type="submit">Отправить</button>
                 </div>
               </form>
             </div>
 
             <!-- Social -->
             <div class="feedback__block social">
-              <div class="feedback__text">
-                <p>Следите за актуальными <span class="word__special">НОВОСТЯМИ</span> и <span
-                    class="word__special">АКЦИЯМИ</span> в соц. сетях.
-                </p>
-              </div>
-              <div class="social__group">
+              <p class="feedback__text">Следите за актуальными <span class="word__special">НОВОСТЯМИ</span> и <span
+                  class="word__special">АКЦИЯМИ</span> в соц. сетях.
+              </p>
+              <div class="social__group social__group--feedback-section">
                 <a class="social__item" href="#" target="_blank">
                   <svg class="social__icon">
                     <use xlink:href="#vkontakte"></use>
@@ -228,30 +215,29 @@
               <div class="reviews__item">
                 <img class="reviews__photo" src="./assets/reviews/author_1.jpg" alt="">
                 <div class="reviews__text">
-                  <p>Привет свою Honda NC750S после сильной аварии, в других сервисах обещали восстановить за 2 месяца
-                    минимум, т.к. необходимо заказывать детали. Команда сокола сделали за 3 недели, причем часть деталей
-                    была изготовлена самими.</p>
+                  Привет свою Honda NC750S после сильной аварии, в других сервисах обещали восстановить за 2 месяца
+                  минимум, т.к. необходимо заказывать детали. Команда сокола сделали за 3 недели, причем часть деталей
+                  была изготовлена самими.
                 </div>
-                <div class="reviews__author"><b>Сергей Храпов</b></div>
+                <div class="reviews__author">Сергей Храпов</div>
               </div>
               <div class="reviews__item">
                 <img class="reviews__photo" src="./assets/reviews/author_2.jpg" alt="">
                 <div class="reviews__text">
-                  <p>Заказывал кастом мотоцикла на базе Дукати xdiavel, уделяли внимание всем деталям, сделали очень
-                    качественно. Итоговая стоимость оказалась ниже тысяч на 40. Езжу второй год- ни разу ни чего не
-                    ломалось.</p>
+                  Заказывал кастом мотоцикла на базе Дукати xdiavel, уделяли внимание всем деталям, сделали очень
+                  качественно. Итоговая стоимость оказалась ниже тысяч на 40. Езжу второй год- ни разу ни чего не
+                  ломалось.
                 </div>
-                <div class="reviews__author"><b>Всеволод Маркин</b></div>
+                <div class="reviews__author">Всеволод Маркин</div>
               </div>
               <div class="reviews__item">
                 <img class="reviews__photo" src="./assets/reviews/author_3.jpg" alt="">
                 <div class="reviews__text">
-                  <p>Заказывал кастом мотоцикла. Донора не было, сами нашли и привезли исходный мото, результатом очень
-                    доволен еще и разрешили присутствовать на этапах сборки!</p>
+                  Заказывал кастом мотоцикла. Донора не было, сами нашли и привезли исходный мото, результатом очень
+                  доволен еще и разрешили присутствовать на этапах сборки!
                 </div>
-                <div class="reviews__author"><b>Егор Синельников</b></div>
+                <div class="reviews__author">Егор Синельников</div>
               </div>
-
             </div>
           </div>
       </section><!-- Reviews -->
@@ -259,53 +245,44 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <div class="footer__inner">
-          <div class="footer__item">
-            <img class="footer__logo logo" src="./assets/logo_black.png" alt="">
-          </div>
-          <div class="footer__item">
-            <a class="footer__link" href="#">О мастерской</a>
-            <a class="footer__link" href="#">Помощь</a>
-            <a class="footer__link" href="#">Наша команда</a>
-            <a class="footer__link" href="#">Пользовательсое соглашение</a>
-          </div>
-          <div class="footer__item">
-            <p>Ежедневно с 9:00 до 18:00</з>
-            <p>г. Ижевск, ул. Маяковского, д. 20</p>
-            <a class="footer__link" href="tel:+73412142536">+7 (3412) 14 25 36</a>
-            <a class="footer__link" href="mailto:Sokol-custom@gmail.ru">Sokol-custom@gmail.ru</a>
-          </div>
-          <div class="footer__item footer__icons">
-            <div class="social__group">
-              <a class="social__item footer__icon" href="#" target="_blank">
-                <svg class="social__icon">
-                  <use xlink:href="#vkontakte"></use>
-                </svg>
-              </a>
-              <a class="social__item footer__icon" href="#" target="_blank">
-                <svg class="social__icon">
-                  <use xlink:href="#facebook"></use>
-                </svg>
-              </a>
-              <a class="social__item footer__icon" href="#" target="_blank">
-                <svg class="social__icon">
-                  <use xlink:href="#instagram"></use>
-                </svg>
-              </a>
-              <a class="social__item footer__icon" href="#" target="_blank">
-                <svg class="social__icon">
-                  <use xlink:href="#youtube"></use>
-                </svg>
-              </a>
-            </div>
-          </div>
+      <div class="layout-4-columns">
+        <img class="footer__logo" src="./assets/logo.svg" alt="Логотип">
+        <ul class="footer__links">
+          <li class="footer__link"><a href="./about.html">О мастерской</a></li>
+          <li class="footer__link"><a href="#">Помощь</a></li>
+          <li class="footer__link"><a href="#">Наша команда</a></li>
+          <li class="footer__link"><a href="#">Пользовательское соглашение</a></li>
+        </ul>
+        <div class="footer__schedule">
+          <p>Ежедневно с 9:00 до 18:00</p>
+          <p>г. Ижевск, ул. Маяковского, д. 20</p>
+          <a href="tel:+73412142536">+7 (3412) 14 25 36</a>
+          <a href="mailto:Sokol-custom@gmail.ru">Sokol-custom@gmail.ru</a>
+        </div>
+        <div class="footer__social">
+          <a href="#">
+            <svg class="social__icon">
+              <use xlink:href="#vkontakte"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="social__icon">
+              <use xlink:href="#facebook"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="social__icon">
+              <use xlink:href="#instagram"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="social__icon">
+              <use xlink:href="#youtube"></use>
+            </svg>
+          </a>
         </div>
       </div>
     </footer>
   </div>
-
-
 </body>
-
 </html>

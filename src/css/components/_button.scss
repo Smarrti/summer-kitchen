@@ -3,11 +3,22 @@
   background: rgba(43, 30, 35, 0.44);
   color: $color-header-text;
   text-decoration: none;
+  text-align: center;
   font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background: $color-primary-darken;
+  }
   &_big {
     padding: 11px 15px;
+    width: 210px;
+    text-transform: uppercase;
   }
   &_red {
-    background: $color-primary;
+    background: linear-gradient(180deg, $color-primary 0%, $color-primary-darken 100%);
+  }
+  &_longer {
+    width: 100%;
   }
 }

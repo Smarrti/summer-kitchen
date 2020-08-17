@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  transition: all 0.3s ease;
 }
 
 *,
@@ -17,10 +18,8 @@ html {
 }
 
 body {
-  // width: 1080px;
   margin: 0 auto;
   font-family: "Lato", sans-serif;
-  line-height: 1.2;
   color: $color-text;
   @include media-full-adaptive {
     width: 95%;

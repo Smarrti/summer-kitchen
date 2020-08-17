@@ -1,48 +1,46 @@
 // Form
 
 .feedback__form {
-    position: relative;
-    padding: 20px 55px;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    border: 4px solid #ffbe40;
+  position: relative;
+  padding: 20px 55px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 4px solid #ffbe40;
 }
 
 .form__title {
-    margin-bottom: 20px;
-    text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.form__fields {
+  width: 200px;
 }
 
 .form__group {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .form__input {
-    width: 100%;
-    outline: none;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #2b1e23;
-    color: #c4c4c4;
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #2b1e23;
+  color: #c4c4c4;
 }
 
 .form__button {
-    display: block;
-    margin: 0 auto;
-    padding: 8px;
-    width: 200px;
-    outline: none;
-    border: none;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-    background: #c90000;
-    transition: background 0.1s linear;
+  display: block;
+  margin: 0 auto;
+  outline: none;
+  transition: background 0.3s linear;
 }
 
 .form__button:hover {
-    background-color: #2b1e23;
+  background-color: #2b1e23;
 }
