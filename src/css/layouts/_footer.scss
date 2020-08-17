@@ -1,7 +1,8 @@
 .footer {
   display: flex;
   width: 80%;
-  margin: 50px auto 20px auto;
+  max-width: 1360px;
+  margin: 0 auto 20px;
   padding-top: 20px;
   font-size: 1.4rem;
   border-top: 4px solid $color-text;
