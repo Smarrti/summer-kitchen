@@ -1,0 +1,40 @@
+.team-content {
+  &__slider {
+    width: 900px;
+    height: 353px;
+  }
+  &__slide {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.slide {
+  &__information {
+    background: white;
+    border: 3px solid #FFBE40;
+    min-width: 450px;
+    position: relative;
+    left: -100px;
+    padding: 20px;
+  }
+  &__name {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  &__position {
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+  }
+  &__description {
+    font-size: 1.8rem;
+  }
+  &__square {
+    min-width: 35px;
+    min-height: 35px;
+    background: black;
+    position: relative;
+    left: -118px;
+    border: 5px solid white;
+  }
+}
