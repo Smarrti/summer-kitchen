@@ -11,13 +11,10 @@
   background-size: cover;
 }
 
-.intro__inner {
-  padding-top: 100px;
-}
-
 .intro__title {
   margin-top: 42px;
   font-size: 1.8rem;
+  font-weight: normal;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -31,9 +28,9 @@
 .intro__text {
   margin-top: 45px;
   max-width: 50%;
-  line-height: 22px;
-  color: #ffffff;
   font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #ffffff;
 }
 
 .intro__buttons {

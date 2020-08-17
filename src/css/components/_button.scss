@@ -12,7 +12,8 @@
   }
   &_big {
     padding: 11px 15px;
-    width: 200px;
+    width: 210px;
+    text-transform: uppercase;
   }
   &_red {
     background: linear-gradient(180deg, $color-primary 0%, $color-primary-darken 100%);
