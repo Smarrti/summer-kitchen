@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: space-between;
   height: 92px;
+  width: 80%;
+  margin: 0 auto;
   &__links {
     display: flex;
     justify-content: space-between;
@@ -23,8 +25,6 @@
     }
   }
   &_on-main {
-    width: 80%;
-    margin: 0 auto;
     & > ul > li > a {
       color: #FFFFFF;
     }
