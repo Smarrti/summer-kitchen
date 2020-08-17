@@ -1,6 +1,7 @@
 .footer {
   display: flex;
-  margin: 50px 0 20px 0;
+  width: 80%;
+  margin: 50px auto 20px auto;
   padding-top: 20px;
   font-size: 1.4rem;
   border-top: 4px solid $color-text;
@@ -13,9 +14,15 @@
     margin-bottom: 15px;
     text-decoration: none;
     color: $color-text;
+    &:hover {
+      color: $color-primary;
+    }
     & > a {
       text-decoration: none;
       color: $color-text;
+      &:hover {
+        color: $color-primary;
+      }
     }
   }
   &__social {
@@ -24,6 +31,12 @@
     justify-content: center;
     & > *:not(:last-child) {
       margin-right: 15px;
+    }
+    & > a > svg {
+      width: 27px;
+      &:hover {
+        fill: #c90000;
+      }
     }
   }
 }
