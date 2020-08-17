@@ -11,6 +11,9 @@
 
 html {
   font-size: 10px;
+  @include media-desktop {
+    font-size: 9.5px;
+  }
 }
 
 body {

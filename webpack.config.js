@@ -151,8 +151,8 @@ const config = {
       filename: './index.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/about/index.html',
-      filename: './about/index.html'
+      template: './src/about.html',
+      filename: './about.html'
     }),
     new CopyWebpackPlugin([
       {
