@@ -7,6 +7,9 @@
   font-size: 1.8rem;
   border: none;
   cursor: pointer;
+  &:hover {
+    background: $color-primary-darken;
+  }
   &_big {
     padding: 11px 15px;
     width: 200px;
