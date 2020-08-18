@@ -17,3 +17,41 @@
     padding: 40px 15% 0;
   }
 }
+
+.custom-offer {
+  width: 433px;
+  height: 201px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border: 3px solid $color-additional;
+  &__content {
+    width: 250px;
+    margin: 0 auto;
+  }
+  &__text {
+    font-size: 1.8rem;
+    padding-bottom: 16px;
+  }
+  &__service {
+    font-size: 1.8rem;
+    color: $color-gray-text;
+  }
+  &__price {
+    font-size: 1.8rem;
+    margin-bottom: 22px;
+    font-weight: 700;
+    & > span {
+      color: $color-primary;
+    }
+  }
+  &__square {
+    width: 81px;
+    height: 81px;
+    background: url("../assets/dots/dots_form.png") #ffffff;
+    background-repeat: no-repeat;
+    border: 3px solid #ffffff;
+    position: relative;
+    top: -88px;
+    left: -37px;
+  }
+}
