@@ -154,6 +154,10 @@ const config = {
       template: './src/about.html',
       filename: './about.html'
     }),
+    new HtmlWebPackPlugin({
+      template: './src/contacts.html',
+      filename: './contacts.html'
+    }),
     new CopyWebpackPlugin([
       {
         from: './src/assets',
