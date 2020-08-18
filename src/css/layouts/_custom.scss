@@ -1,0 +1,19 @@
+.custom-content {
+  margin-top: 60px;
+  &__header {
+    @extend %text-header;
+  }
+  &__text-container-left {
+    margin-left: 15%;
+    & > p {
+      font-size: 1.8rem;
+      line-height: 22px;
+    }
+  }
+  &__photo {
+    width: 100%;
+  }
+  &__offers {
+    padding: 40px 15% 0;
+  }
+}
