@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  border: 4px solid #ffbe40;
+  border: 4px solid $color-additional;
 }
 
 .form__title {
@@ -26,12 +26,17 @@
 }
 
 .form__input {
+  padding: 3px;
   width: 100%;
   outline: none;
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid #2b1e23;
-  color: #c4c4c4;
+  border-bottom: 2px solid $color-table;
+  color: $color-text-input;
+}
+
+.form__input:focus, .form__input:not(:placeholder-shown) {
+  color: $color-text;
 }
 
 .form__button {
