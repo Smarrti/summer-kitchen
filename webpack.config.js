@@ -162,6 +162,10 @@ const config = {
       template: './src/services.html',
       filename: './services.html'
     }),
+    new HtmlWebPackPlugin({
+      template: './src/application.html',
+      filename: './application.html'
+    }),
     new CopyWebpackPlugin([
       {
         from: './src/assets',
