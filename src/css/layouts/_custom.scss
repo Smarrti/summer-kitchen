@@ -55,3 +55,38 @@
     left: -37px;
   }
 }
+
+.custom {
+  &__moto {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
+  &__dots {
+    content: '';
+    display: block;
+    width: 312px;
+    height: 312px;
+    position: relative;
+    left: -160px;
+    top: -30px;
+    background: url("../assets/dots/dots_empty.png");
+    background-repeat: no-repeat;
+    z-index: -1; 
+    &::after {
+      content: '';
+      display: block;
+      position: relative;
+      top: 90px;
+      left: -60px;
+      width: 433px;
+      height: 201px;
+      border: 3px solid $color-primary;
+    }
+  }
+  // &__border {
+  //   width: 433px;
+  //   height: 201px;
+  //   border: 3px solid $color-primary;
+  // }
+}
