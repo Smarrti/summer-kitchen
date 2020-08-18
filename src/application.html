@@ -59,9 +59,57 @@
             <div class="application">
                 <div class="container">
                     <div class="application__inner">
-                        <h1 class="application__header page__header">Услуги</h1>
+                        <h1 class="application__header page__header">Форма заявки</h1>
                         <div class="application__content">
-                            
+                            <div class="application__item">
+                                <form class="application__form form2" action="">
+                                    <div class="form2__fields">
+                                        <div class="form2__group">
+                                            <input class="form2__input" type="text" name="form2__name" id="f2__name"
+                                                placeholder=" " required>
+                                            <label for="f2__name" class="form2__label">Ваше имя*</label>
+                                        </div>
+                                        <div class="form2__group">
+                                            <input class="form2__input" type="tel" name="form2__tel" id="f2__tel"
+                                                placeholder=" " required>
+                                            <label for="f2__tel" class="form2__label">Ваш телефон*</label>
+                                        </div>
+                                        <div class="form2__group">
+                                            <input class="form2__input" type="email" name="form2__email" id="f2__email"
+                                                placeholder=" " required>
+                                            <label for="f2__email" class="form2__label">Ваш e-mail*</label>
+                                        </div>
+                                        <div class="form2__group">
+                                            <textarea class="form2__textarea" type="text" name="form2__comment"
+                                                id="f2__comment" placeholder=" "></textarea>
+                                            <label for="f2__comment" class="form2__label">Комментарий</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="form2__terms">
+                                        <input class="terms__checkbox" type="checkbox" name="terms" id="checkbox"
+                                            required>
+                                        <label class="terms__label form2__text" for="checkbox">
+                                            Даю согласие на обработку
+                                            <a class="form__link" href="#">персональных данных</a></label>
+                                    </div>
+                                    <div class="form2__text">*Обязательно к заполнению</div>
+                                    <button class="form2__button button button_red button_longer"
+                                        type="submit">Отправить</button>
+
+                                </form>
+                            </div>
+                            <div class="application__item">
+                                <img class="application__picture" src="./assets/application/harley.png" alt="Harley Davidson">
+                                <img class="application__dots" src="./assets/dots/dots_filled_horizontal.svg" alt="">
+                                <div class="application__border">border</div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main class="main">
 
         <!-- Footer -->
