@@ -1,0 +1,92 @@
+.custom-content {
+  margin-top: 60px;
+  &__header {
+    @extend %text-header;
+  }
+  &__text-container-left {
+    margin-left: 15%;
+    & > p {
+      font-size: 1.8rem;
+      line-height: 22px;
+    }
+  }
+  &__photo {
+    width: 100%;
+  }
+  &__offers {
+    padding: 40px 15% 0;
+  }
+}
+
+.custom-offer {
+  width: 433px;
+  height: 201px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border: 3px solid $color-additional;
+  &__content {
+    width: 250px;
+    margin: 0 auto;
+  }
+  &__text {
+    font-size: 1.8rem;
+    padding-bottom: 16px;
+  }
+  &__service {
+    font-size: 1.8rem;
+    color: $color-gray-text;
+  }
+  &__price {
+    font-size: 1.8rem;
+    margin-bottom: 22px;
+    font-weight: 700;
+    & > span {
+      color: $color-primary;
+    }
+  }
+  &__square {
+    width: 81px;
+    height: 81px;
+    background: url("../assets/dots/dots_form.png") #ffffff;
+    background-repeat: no-repeat;
+    border: 3px solid #ffffff;
+    position: relative;
+    top: -88px;
+    left: -37px;
+  }
+}
+
+.custom {
+  &__moto {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
+  &__dots {
+    content: '';
+    display: block;
+    width: 312px;
+    height: 312px;
+    position: relative;
+    left: -160px;
+    top: -30px;
+    background: url("../assets/dots/dots_empty.png");
+    background-repeat: no-repeat;
+    z-index: -1; 
+    &::after {
+      content: '';
+      display: block;
+      position: relative;
+      top: 90px;
+      left: -60px;
+      width: 433px;
+      height: 201px;
+      border: 3px solid $color-primary;
+    }
+  }
+  // &__border {
+  //   width: 433px;
+  //   height: 201px;
+  //   border: 3px solid $color-primary;
+  // }
+}

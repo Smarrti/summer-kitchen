@@ -155,6 +155,10 @@ const config = {
       filename: './about.html'
     }),
     new HtmlWebPackPlugin({
+      template: './src/custom.html',
+      filename: './custom.html'
+    }),
+    new HtmlWebPackPlugin({
       template: './src/contacts.html',
       filename: './contacts.html'
     }),
