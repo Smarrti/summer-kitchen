@@ -1,0 +1,44 @@
+.contacts__content {
+    display: flex;
+}
+
+.contacts__map {
+    width: 70%;
+    max-width: 765px;
+    height: 515px;
+}
+
+.google-map {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.contacts__schedule {
+    margin-left: 45px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.schedule__item {
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.schedule__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.schedule__text {
+    font-size: 1.8rem;
+}
+
+.schedule__text > * {
+    text-decoration: none;
+    color: $color-text;
+}

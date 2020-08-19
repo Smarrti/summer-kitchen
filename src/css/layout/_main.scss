@@ -1,8 +1,9 @@
-.page {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.main {
+    margin: 40px auto 90px;
+}
+
+.main_on-main {
+    margin: 0 auto 90px;
 }
 
 /* Container */
@@ -12,4 +13,14 @@
     padding: 0 15px;
     width: 100%;
     max-width: 1110px;
+}
+
+.page__header {
+    margin-bottom: 40px;
+    max-width: 60%;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #c90000;
 }
