@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-.social__group--feedback-section {
+.social__group_feedback-section {
   justify-content: start;
 }
 
@@ -29,4 +29,5 @@
   display: block;
   fill: #2b1e23;
   height: 40px;
+  transition: all 0.3s ease;
 }
