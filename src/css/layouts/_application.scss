@@ -8,6 +8,10 @@
     width: 50%;
 }
 
+.fixed-height {
+    height: 540px;
+}
+
 .application__dots {
     position: absolute;
     top: 50%;
@@ -29,4 +33,75 @@
     color: transparent;
     background-color: transparent;
     border: 3px solid $color-additional;
+}
+
+.form2__group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.form2__input {
+    width: 90%;
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #edeef0;
+    border-radius: 2px;
+    font-size: 1.8rem;
+
+    transition: 0.2s;
+}
+
+.form2__input:hover {
+    background-color: rgba(237, 238, 240, 0.1);
+    z-index: -1;
+}
+
+.form2__input:focus,
+.form2__input:not(:placeholder-shown) {
+    border: none;
+    border-bottom: 1px solid #edeef0;
+}
+
+.form2__label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    z-index: -1;
+    transition: 0.2s;
+    font-size: 1.8rem;
+    color: $color-text-input;
+}
+
+.form2__input:focus ~ .form2__label,
+.form2__input:not(:placeholder-shown) ~ .form2__label {
+    top: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.form2__label_textarea {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 1.8rem;
+    color: $color-text;
+}
+
+.form2__textarea {
+    padding: 15px;
+    width: 90%;
+    min-height: 168px;
+    resize: vertical;
+    outline: none;
+
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #edeef0;
+    border-radius: 2px;
+
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #686868;
+    transition: 0.2s;
 }
