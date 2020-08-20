@@ -1,23 +1,25 @@
-// section
-
 .section {
-    margin: 80px 0 0;
+    // margin: 80px 0 0;
+    margin: 60px 0 0;
 }
 
 .section__inner {
-    margin: 0 120px;
+    // margin: 0 120px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .section__header {
-    margin: 0 auto 25px;
-    width: 100%;
+    margin-right: auto;
+    margin-bottom: 40px;
     max-width: 60%;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     font-size: 3.6rem;
     font-weight: 700;
-    color: #c90000;
+    color: $color-primary;
 }
