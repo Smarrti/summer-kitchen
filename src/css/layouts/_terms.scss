@@ -1,0 +1,17 @@
+.terms {
+  width: 1120px;
+  margin: 0 auto;
+  &__header {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: $color-primary;
+    margin-bottom: 26px;
+  }
+  &__text {
+    font-size: 1.8rem;
+    &_red {
+      color: $color-primary;
+      font-weight: 700;
+    }
+  }
+}

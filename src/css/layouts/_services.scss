@@ -4,30 +4,72 @@
 }
 
 .services__text {
-    margin-bottom: 50px;
+    position: relative;
+    margin-bottom: 40px;
     font-size: 1.8rem;
 }
 
-.services__table {
-    margin-bottom: 80px;
-    display: flex;
-}
+
 
 .services__price-list {
+    margin-bottom: 80px;
+    display: flex;
+    position: relative;
+}
+
+.services__table {
     text-align: left;
     width: 455px;
     font-size: 1.8rem;
     border-collapse: collapse;
-    border: solid 1px #000;
 }
 
+th {
+    padding: 5px 5px 10px;
+    border: none;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid $color-table;
+}
+
+.price {
+    color: $color-primary;
+}
 
 .services__picture {
     margin: auto auto 0;
     display: block;
     width: 510px;
     height: 290px;
+    z-index: 999;
+    background-color: transparent;
 }
+
+
+.services__dots {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.services__border {
+    position: absolute;
+    top: -50px;
+    right: -45px;
+    z-index: 1;
+    display: block;
+    width: 344px;
+    height: 344px;
+    font-size: 0rem;
+    color: transparent;
+    background-color: transparent;
+    border: 3px solid $color-primary;
+}
+
 
 .service__form {
     margin: 0 auto;

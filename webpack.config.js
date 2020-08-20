@@ -170,6 +170,10 @@ const config = {
       template: './src/help.html',
       filename: './help.html'
     }),
+    new HtmlWebPackPlugin({
+      template: './src/terms.html',
+      filename: './terms.html'
+    }),
     new CopyWebpackPlugin([
       {
         from: './src/assets',
