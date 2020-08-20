@@ -167,6 +167,10 @@ const config = {
       filename: './services.html'
     }),
     new HtmlWebPackPlugin({
+      template: './src/help.html',
+      filename: './help.html'
+    }),
+    new HtmlWebPackPlugin({
       template: './src/terms.html',
       filename: './terms.html'
     }),
