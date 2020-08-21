@@ -1,53 +1,79 @@
 .intro {
+  padding: 90px 0 100px;
   background-color: rgba(0, 0, 0, 0.64);
-  height: 100vh;
+  height: 700px;
 }
 
 .intro__wrapper {
-  height: 100vh;
+  height: 700px;
   background: url("../assets/intro_bg.jpg") center no-repeat #2b1e23;
   background-size: cover;
 }
 
+.intro__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__group {
+  margin-right: auto;
+  max-width: 700px;
+  width: 100%;
+}
+
 .intro__title {
-  margin-top: 42px;
-  font-size: 1.8rem;
-  font-weight: normal;
+  margin-top: 90px;
+  font-size: 6.4rem;
+  line-height: 7.8rem;
+  font-weight: 500;
   text-transform: uppercase;
   color: #ffffff;
 }
 
-.title__company-name {
-  margin-right: 15px;
-  font-size: 6.4rem;
-  font-weight: 700;
+.intro__subtitle {
+  margin-top: 7px;
+  font-size: 1.8rem;
+  line-height: 2.2px;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 .intro__text {
   margin-top: 45px;
-  max-width: 50%;
+  display: block;
+  max-width: 100%;
   font-size: 1.8rem;
-  line-height: 2.6rem;
+  line-height: 2.5rem;
   color: #ffffff;
 }
 
-.intro__buttons {
-  max-width: 100%;
-  margin-top: 10px;
-  display: inline-block;
-}
-
 .intro__btn {
-  display: inline-block;
-  margin-left: 15px;
-  padding: 5px 20px;
-}
-
-.intro__btn:first-child {
-  margin-left: 0;
+  margin-top: 15px;
+  width: 180px;
 }
 
 .intro__statistics {
-  margin-top: 170px;
+  margin-top: 80px;
   display: flex;
+}
+
+.stat__item {
+  margin-left: 30px;
+}
+
+.stat__item:first-child {
+  margin-left: 0px;
+}
+
+.stat__counter {
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+  color: #ffffff;
+}
+
+.stat__text {
+  margin-top: 3px;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #ffffff;
 }

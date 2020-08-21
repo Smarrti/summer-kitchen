@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
   <title>Кастом мастерская SOKOL</title>
 </head>
 
@@ -29,10 +29,34 @@
     </symbol>
   </svg>
   <div class="page">
+    <header class="header header_on-main">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo" href="./index.html" alt="Главная страница">
+            <img src="./assets/logo_white.png" alt="Логотип">
+          </a>
+          <ul class="header__links">
+            <li class="header__link"><a class="header__link header__link_on-main" href="./about.html">О мастерской</a>
+            </li>
+            <li class="header__link"><a class="header__link header__link_on-main" href="./services.html">Услуги</a></li>
+            <li class="header__link"><a class="header__link header__link_on-main" href="#">Реализованные проекты</a>
+            </li>
+            <li class="header__link"><a class="header__link header__link_on-main" href="./contacts.html">Контакты</a>
+            </li>
+            <li class="header__link"><a class="header__link header__link_on-main header__link_bold"
+                href="./application.html">Оставить заявку</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
     <main class="main_on-main">
       <!-- Intro -->
       <div class="intro__wrapper">
         <div class="intro">
+<<<<<<< HEAD
+
+=======
           <header class="header header_on-main">
             <a class="header__logo" href="./index.html">
               <img src="./assets/logo_white.png" alt="Главная страница">
@@ -45,80 +69,93 @@
             </ul>
             <a class="header__link button button_red button_big" href="./application.html">Оставить заявку</a>
           </header>
+>>>>>>> develop
           <div class="container">
             <div class="intro__inner">
-              <h1 class="intro__title">
-                <span class="title__company-name">Sokol</span> Кастом мастерская мотоциклов
-              </h1>
-              <p class="intro__text">
-                Превращаем идеи в результат, демонстрируя быструю и качественную работу. Для Вас мы создадим кастом на
-                базе
-                любого мотоцикла. Поможем обрести мечту, создать уникальный байк, стилизовать его исключительно под
-                Вас.
-              </p>
-              <div class="intro__buttons">
-                <a class="intro__btn button" href="#">Далее</a>
-                <a class="intro__btn button button_red" href="#">Кастом</a>
+              <div class="intro__group">
+                <h1 class="intro__title">Sokol</h1>
+                <h2 class="intro__subtitle">Кастом мастерская мотоциклов</h2>
+                <p class="intro__text">
+                  Превращаем идеи в результат, демонстрируя быструю и качественную работу. Для Вас мы создадим кастом на
+                  базе
+                  любого мотоцикла. Поможем обрести мечту, создать уникальный байк, стилизовать его исключительно под
+                  Вас.
+                </p>
+                <a class="intro__btn button" href="#">Кастом</a>
+
+                <div class="intro__statistics">
+                  <div class="stat__item">
+                    <div class="stat__counter">683</div>
+                    <div class="stat__text">Довольных клиентов</div>
+                  </div>
+                  <div class="stat__item">
+                    <div class="stat__counter">157</div>
+                    <div class="stat__text">Уникальных байков</div>
+                  </div>
+                  <div class="stat__item">
+                    <div class="stat__counter">5</div>
+                    <div class="stat__text">Кастом проектов в работе</div>
+                  </div>
+                </div>
               </div>
 
-              <div class="intro__statistics">
-                <div class="stat__item">
-                  <div class="stat__counter">683</div>
-                  <div class="stat__text">Довольных клиентов</div>
+              <!-- Form -->
+              <form class="feedback__form_main" action="#" method="POST">
+                <div class="form__title">Обратная связь</div>
+                <div class="form__fields">
+                  <div class="form__group">
+                    <input class="form__input" type="text" name="name" id="name" placeholder=" " required>
+                    <label for="name" class="form__label">Имя*</label>
+                  </div>
+                  <div class="form__group">
+                    <input class="form__input" type="tel" name="tel" id="tel" placeholder=" " required>
+                    <label for="tel" class="form__label">Телефон*</label>
+                  </div>
+                  <div class="form__group">
+                    <input class="form__input" type="email" name="email" id="email" placeholder=" " required>
+                    <label for="email" class="form__label">Адрес эл. почты*</label>
+                  </div>
                 </div>
-                <div class="stat__item">
-                  <div class="stat__counter">157</div>
-                  <div class="stat__text">Уникальных байков</div>
+                <button class="form__button_main button" type="submit">Отправить</button>
+                <div class="form__text">
+                  <p>Есть вопросы?</p>
+                  <p>Оставьте свои контакты и мы Вам перезвоним!</p>
                 </div>
-                <div class="stat__item">
-                  <div class="stat__counter">5</div>
-                  <div class="stat__text">Кастом проектов в работе</div>
-                </div>
-              </div>
-
             </div>
+            </form>
           </div>
         </div>
       </div>
-      <!-- Feedback -->
-      <div class="feedback">
+
+      <!-- Special offer -->
+      <section class="section">
         <div class="container">
-          <div class="feedback__inner">
-            <div class="feedback__block">
-              <p class="feedback__text">Есть вопросы?</p>
-              <p class="feedback__text">Оставьте свои контакты и мы Вам перезвоним!</p>
+          <div class="section__header">Акции</div>
+          <div class="section__inner special-offers">
+            <div class="special-offer__item">
+              <img class="dots__square-left" src="./assets/dots/dots_suqare_filled.svg" alt="">
+              <p>До конца года закажи кастом и мы покрасим его бесплатно!</p>
+              <p>Акция действует до 31.12.2020 включительно.</p>
+              <img class="dots__square-between" src="./assets/dots/dots_rectangle_filled.svg" alt="">
             </div>
-
-            <!-- Form -->
-            <div class="feedback__block">
-              <form class="feedback__form" action="#">
-                <img class="dots__item dots__form" src="./assets/dots/dots_form.png" alt="">
-                <div class="form__title">ОБРАТНАЯ СВЯЗЬ</div>
-                <div class="form__fields">
-                  <div class="form__group">
-                    <input class="form__input" type="text" name="name" id="feedback__name" placeholder="Имя*" required>
-                  </div>
-                  <div class="form__group">
-                    <input class="form__input" type="tel" name="tel" id="feedback__tel" placeholder="+7 888 666 55 44*"
-                      required>
-                  </div>
-                  <div class="form__group">
-                    <input class="form__input" type="tel" name="email" id="feedback__email"
-                      placeholder="Адрес эл. почты*" required>
-                  </div>
-
-                  <button class="form__button button button_red button_longer" type="submit">Отправить</button>
-                </div>
-              </form>
+            <div class="special-offer__item">
+              <p>Зимнее хранение со скидкой 15% если успеешь забронировать место и внести предоплату 50%.</p>
+              <p>Акция действует с 01.08.2020 по 27.09.2020 включительно.</p>
+              <img class="dots__square-right" src="./assets/dots/dots_suqare_filled.svg" alt="">
             </div>
-
             <!-- Social -->
+<<<<<<< HEAD
+            <div class="special-offer__block social">
+              <div class="social__group social__group_main">
+                <a class="social__item" href="#" target="_blank">
+=======
             <div class="feedback__block social">
               <p class="feedback__text">Следите за актуальными <span class="word__special">НОВОСТЯМИ</span> и <span
                   class="word__special">АКЦИЯМИ</span> в соц. сетях.
               </p>
               <div class="social__group social__group_feedback-section">
                 <a class="social__item" href="#" target="_blank" aria-label="Vkontakte">
+>>>>>>> develop
                   <svg class="social__icon">
                     <use xlink:href="#vkontakte"></use>
                   </svg>
@@ -139,91 +176,84 @@
                   </svg>
                 </a>
               </div>
-            </div><!-- Social -->
+              
+            </div>
+          </div><!-- Social -->
+          <div class="special-offer__text">
+            <p>Хотите еще акции? В соцсетях их больше!</p>
           </div>
         </div>
-      </div> <!-- Feedback -->
+      </section>
 
       <!-- Advantages -->
-
       <section class="section">
-
         <div class="container">
-          <div class="section__inner">
-
-            <div class="dots">
-              <img class="dots__item dots__big--left" src="./assets/dots/dots_empty.png" alt="">
-              <img class="dots__item dots__right--middle" src="./assets/dots/dots_empty.png" alt="">
-              <img class="dots__item dots__right--small" src="./assets/dots/dots_filled.png" alt="">
+          <div class="section__header">Преимущества</div>
+          <div class="section__inner advantages">
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./assets/advantages_icons/1.svg" alt="">
+              <div class="advantages__text">
+                <p>Мы используем качественные, дорогостоящих материалы сегмента люкс</p>
+              </div>
             </div>
-
-            <h2 class="section__header">ПРЕИМУЩЕСТВА</h2>
-
-            <div class="advantages">
-              <div class="advantages__item">
-                <img class="advantages__icon" src="https://via.placeholder.com/70" alt="">
-                <div class="advantages__text">
-                  <p>Мы используем качественные, дорогостоящих материалы сегмента люкс. Все детали изготавливаются под
-                    заказ
-                    для каждого конкретного мотоцикла</p>
-                </div>
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./assets/advantages_icons/2.svg" alt="">
+              <div class="advantages__text">
+                <p>Все детали изготавливаются под заказ для каждого конкретного мотоцикла</p>
               </div>
-              <div class="advantages__item">
-                <img class="advantages__icon" src="https://via.placeholder.com/70" alt="">
-                <div class="advantages__text">
-                  <p>Предоставляем 3 года бесплатного сервиса на наши кастом проеты</p>
-                </div>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./assets/advantages_icons/3.svg" alt="">
+              <div class="advantages__text">
+                <p>Предоставляем 3 года бесплатного сервиса на наши кастом проеты</p>
               </div>
-              <div class="advantages__item">
-                <img class="advantages__icon" src="https://via.placeholder.com/70" alt="">
-                <div class="advantages__text">
-                  <p>Вы можете участвовать в создании мотоцикла на всех его этапах</p>
-                </div>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./assets/advantages_icons/4.svg" alt="">
+              <div class="advantages__text">
+                <p>Вы можете участвовать в создании мотоцикла на всех его этапах</p>
               </div>
-              <div class="advantages__item">
-                <img class="advantages__icon" src="https://via.placeholder.com/70" alt="">
-                <div class="advantages__text">
-                  <p>Наши специалисты каждый год проходят курсы повышения мастерства</p>
-                </div>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./assets/advantages_icons/5.svg" alt="">
+              <div class="advantages__text">
+                <p>Наши специалисты каждый год проходят курсы повышения мастерства</p>
               </div>
             </div>
           </div>
-        </div>
-      </section> <!-- Advantages -->
+      </section>
 
       <!-- Reviews -->
       <section class="section">
         <div class="container">
-          <div class="section__inner">
-            <h2 class="section__header">Отзывы</h2>
+          <div class="section__header">Отзывы</div>
+          <div class="section__inner reviews">
 
-            <div class="reviews">
-              <div class="reviews__item">
-                <img class="reviews__photo" src="./assets/reviews/author_1.jpg" alt="">
-                <div class="reviews__text">
-                  Привет свою Honda NC750S после сильной аварии, в других сервисах обещали восстановить за 2 месяца
-                  минимум, т.к. необходимо заказывать детали. Команда сокола сделали за 3 недели, причем часть деталей
-                  была изготовлена самими.
-                </div>
-                <div class="reviews__author">Сергей Храпов</div>
+            <div class="reviews__item">
+              <img class="reviews__photo" src="./assets/reviews/author_1.jpg" alt="">
+              <div class="reviews__text">
+                Привет свою Honda NC750S после сильной аварии, в других сервисах обещали восстановить за 2 месяца
+                минимум, т.к. необходимо заказывать детали. Команда сокола сделали за 3 недели, причем часть деталей
+                была изготовлена самими.
               </div>
-              <div class="reviews__item">
-                <img class="reviews__photo" src="./assets/reviews/author_2.jpg" alt="">
-                <div class="reviews__text">
-                  Заказывал кастом мотоцикла на базе Дукати xdiavel, уделяли внимание всем деталям, сделали очень
-                  качественно. Итоговая стоимость оказалась ниже тысяч на 40. Езжу второй год- ни разу ни чего не
-                  ломалось.
-                </div>
-                <div class="reviews__author">Всеволод Маркин</div>
+              <div class="reviews__author">Сергей Храпов</div>
+            </div>
+            <div class="reviews__item reviews__item_right">
+              <img class="reviews__photo" src="./assets/reviews/author_2.jpg" alt="">
+              <div class="reviews__text">
+                Заказывал кастом мотоцикла на базе Дукати xdiavel, уделяли внимание всем деталям, сделали очень
+                качественно. Итоговая стоимость оказалась ниже тысяч на 40. Езжу второй год- ни разу ни чего не
+                ломалось.
               </div>
-              <div class="reviews__item">
-                <img class="reviews__photo" src="./assets/reviews/author_3.jpg" alt="">
-                <div class="reviews__text">
-                  Заказывал кастом мотоцикла. Донора не было, сами нашли и привезли исходный мото, результатом очень
-                  доволен еще и разрешили присутствовать на этапах сборки!
-                </div>
-                <div class="reviews__author">Егор Синельников</div>
+              <div class="section__item reviews__author">Всеволод Маркин</div>
+            </div>
+            <div class="reviews__item">
+              <img class="reviews__photo" src="./assets/reviews/author_3.jpg" alt="">
+              <div class="reviews__text">
+                Заказывал кастом мотоцикла. Донора не было, сами нашли и привезли исходный мото, результатом очень
+                доволен еще и разрешили присутствовать на этапах сборки!
               </div>
+              <div class="reviews__author">Егор Синельников</div>
             </div>
           </div>
         </div>
