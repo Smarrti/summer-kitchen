@@ -34,4 +34,12 @@
     font-size: 1.8rem;
     line-height: 2.2rem;
   }
+  &__slider {
+    width: 900px;
+    height: 353px;
+  }
+  &__slide {
+    display: flex;
+    align-items: center;
+  }
 }
