@@ -3,19 +3,30 @@
 .reviews {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .reviews__item {
   position: relative;
-  margin: 0 auto 40px;
+  margin-bottom: 60px;
+  margin-left: 50px;
   padding: 25px 15px 25px 0;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 600px;
-  min-height: 180px;
-  border: 6px solid #c90000;
+  min-height: 220px;
+  border: 6px solid #f40000;
+  border-radius: 2px;
+}
+
+.reviews__item:last-child {
+  margin-bottom: 0;
+}
+
+.reviews__item_right {
+  align-self: flex-end;
 }
 
 .reviews__photo {
@@ -28,6 +39,7 @@
 
 .reviews__text {
   font-size: 1.8rem;
+  line-height: 2.5rem;
   margin-left: 64px;
   margin-bottom: 12px;
 }
