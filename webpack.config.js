@@ -155,6 +155,10 @@ const config = {
       filename: './about.html'
     }),
     new HtmlWebPackPlugin({
+      template: './src/custom.html',
+      filename: './custom.html'
+    }),
+    new HtmlWebPackPlugin({
       template: './src/contacts.html',
       filename: './contacts.html'
     }),
@@ -165,6 +169,14 @@ const config = {
     new HtmlWebPackPlugin({
       template: './src/application.html',
       filename: './application.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/help.html',
+      filename: './help.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/terms.html',
+      filename: './terms.html'
     }),
     new CopyWebpackPlugin([
       {

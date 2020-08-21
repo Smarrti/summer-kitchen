@@ -15,6 +15,7 @@
     margin-bottom: 15px;
     text-decoration: none;
     color: $color-text;
+    transition: all 0.3s ease;
     &:hover {
       color: $color-primary;
     }

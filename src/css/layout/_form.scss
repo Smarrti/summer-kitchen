@@ -49,6 +49,7 @@
   
 }
 
+<<<<<<< HEAD
 .form__input:focus,
 .form__input:not(:placeholder-shown) {
   border: 1px solid #FFBE40;
@@ -78,6 +79,12 @@
 
 .form__button_main {
   background-color: #FFBE40;
+=======
+.form__button {
+  display: block;
+  margin: 0 auto;
+  outline: none;
+>>>>>>> develop
 }
 
 .form__text {
