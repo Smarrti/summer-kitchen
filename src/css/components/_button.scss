@@ -1,14 +1,19 @@
 .button {
-  display: inline-block;
+  margin: 0 auto;
   padding: 5px 15px;
+  display: inline-block;
+  min-width: 140px;
+  
   background: #F40000;;
   color: $color-header-text;
+
   text-decoration: none;
   text-align: center;
   vertical-align: top;
   font-size: 1.8rem;
   line-height: 2.2rem;
   font-weight: 700;
+
   border: none;
   border-radius: 2px;
   cursor: pointer;
@@ -28,3 +33,6 @@
   }
 }
 
+.form__button_main {
+  background-color: #FFBE40;
+}

@@ -1,4 +1,4 @@
-.services__content {
+.services {
     display: flex;
     flex-direction: column;
 }
@@ -9,17 +9,22 @@
     font-size: 1.8rem;
 }
 
-
-
-.services__price-list {
-    margin-bottom: 80px;
+.services__group {
     display: flex;
-    position: relative;
 }
+
+
+
+// .services__price-list {
+//     margin-bottom: 80px;
+//     display: flex;
+//     position: relative;
+// }
 
 .services__table {
     text-align: left;
-    width: 455px;
+    width: 100%;
+    max-width: 530px;
     font-size: 1.8rem;
     border-collapse: collapse;
 }
@@ -38,39 +43,39 @@ td {
     color: $color-primary;
 }
 
-.services__picture {
-    margin: auto auto 0;
-    display: block;
-    width: 510px;
-    height: 290px;
-    z-index: 999;
-    background-color: transparent;
-}
+// .services__picture {
+//     margin: auto auto 0;
+//     display: block;
+//     width: 510px;
+//     height: 290px;
+//     z-index: 999;
+//     background-color: transparent;
+// }
 
 
-.services__dots {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    z-index: 1;
-    transform: translateY(-50%);
-}
+// .services__dots {
+//     position: absolute;
+//     top: 50%;
+//     right: 0;
+//     z-index: 1;
+//     transform: translateY(-50%);
+// }
 
-.services__border {
-    position: absolute;
-    top: -50px;
-    right: -45px;
-    z-index: 1;
-    display: block;
-    width: 344px;
-    height: 344px;
-    font-size: 0rem;
-    color: transparent;
-    background-color: transparent;
-    border: 3px solid $color-primary;
-}
+// .services__border {
+//     position: absolute;
+//     top: -50px;
+//     right: -45px;
+//     z-index: 1;
+//     display: block;
+//     width: 344px;
+//     height: 344px;
+//     font-size: 0rem;
+//     color: transparent;
+//     background-color: transparent;
+//     border: 3px solid $color-primary;
+// }
 
 
 .service__form {
-    margin: 0 auto;
+    margin: 0 auto auto;
 }
