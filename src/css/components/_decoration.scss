@@ -1,0 +1,40 @@
+.decoration {
+    position: absolute;
+    top: 270px;
+    right: 0;
+    z-index: 1;
+    width: 650px;
+    height: 450px;
+}
+
+.decoration__img_services {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+    z-index: 999;
+}
+
+.decoration__dots_services {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    z-index: 500;
+}
+
+.decoration__border_services {
+    position: absolute;
+    top: -45px;
+    right: -40px;
+    z-index: 1;
+
+    display: block;
+    width: 344px;
+    height: 344px;
+
+    font-size: 0;
+    color: transparent;
+
+    border: 3px solid $color-decoration-border;
+    border-radius: 2px;
+}

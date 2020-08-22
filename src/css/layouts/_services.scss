@@ -10,32 +10,29 @@
 }
 
 .services__group {
+    position: relative;
     display: flex;
 }
-
-
-
-// .services__price-list {
-//     margin-bottom: 80px;
-//     display: flex;
-//     position: relative;
-// }
 
 .services__table {
     text-align: left;
     width: 100%;
     max-width: 530px;
     font-size: 1.8rem;
+    line-height: 1;
     border-collapse: collapse;
 }
 
 th {
-    padding: 5px 5px 10px;
+    padding-bottom: 20px;
     border: none;
+    font-size: 2.4rem;
+    line-height: 1;
+    font-weight: 700;
 }
 
 td {
-    padding: 5px;
+    padding: 12px 20px;
     border: 1px solid $color-table;
 }
 
@@ -51,7 +48,6 @@ td {
 //     z-index: 999;
 //     background-color: transparent;
 // }
-
 
 // .services__dots {
 //     position: absolute;
@@ -74,7 +70,6 @@ td {
 //     background-color: transparent;
 //     border: 3px solid $color-primary;
 // }
-
 
 .service__form {
     margin: 0 auto auto;
