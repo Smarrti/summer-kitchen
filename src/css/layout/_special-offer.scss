@@ -17,7 +17,7 @@
   font-size: 1.8rem;
   line-height: 2.2rem;
   font-weight: 700;
-  color: #352e2d;
+  color: $color-text-common;
 
   border: 6px solid #ffbe40;
   border-radius: 2px;
@@ -36,7 +36,7 @@
   display: block;
   width: 65px;
   height: 93px;
-  background-color: #fff;
+  background-color: $color-background-white;
   border-top: 14px solid #fff;
   border-bottom: 14px solid #fff;
 }
@@ -50,7 +50,7 @@
   display: block;
   width: 65px;
   height: 95px;
-  background-color: #fff;
+  background-color: $color-background-white;
   border-top: 18px solid #fff;
   border-bottom: 14px solid #fff;
 }
@@ -64,7 +64,7 @@
   display: block;
   width: 225px;
   height: 110px;
-  background-color: #fff;
+  background-color: $color-background-white;
   border-top: 14px solid #fff;
   border-bottom: 14px solid #fff;
 }

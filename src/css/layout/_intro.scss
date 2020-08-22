@@ -8,7 +8,7 @@
 
 .intro__wrapper {
   height: 700px;
-  background: url("../assets/intro_bg.jpg") center no-repeat #2b1e23;
+  background: url("../assets/intro_bg.jpg") center no-repeat $color-background-black;
   background-size: cover;
 }
 
@@ -29,7 +29,7 @@
   line-height: 7.8rem;
   font-weight: 500;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $color-text-white;
 }
 
 .intro__subtitle {
@@ -37,7 +37,7 @@
   font-size: 1.8rem;
   line-height: 2.2px;
   font-weight: 500;
-  color: #ffffff;
+  color: $color-text-white;
 }
 
 .intro__text {
@@ -46,7 +46,7 @@
   max-width: 100%;
   font-size: 1.8rem;
   line-height: 2.5rem;
-  color: #ffffff;
+  color: $color-text-white;
 }
 
 .intro__btn {
@@ -70,12 +70,12 @@
 .stat__counter {
   font-size: 3.6rem;
   line-height: 4.4rem;
-  color: #ffffff;
+  color: $color-text-white;
 }
 
 .stat__text {
   margin-top: 3px;
   font-size: 1.8rem;
   line-height: 2.2rem;
-  color: #ffffff;
+  color: $color-text-white;
 }

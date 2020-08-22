@@ -31,7 +31,7 @@
       margin-left: 20px;
       font-size: 1.8rem;
       text-decoration: none;
-      color: $color-text;
+      color: $color-text-common;
       opacity: 0.85;
       transition: opacity 0.2s linear;
     }
@@ -41,7 +41,7 @@
     }
 
     & > a.header__link_on-main {
-      color: #ffffff;
+      color: $color-text-white;
     }
     & > a.header__link_on-main:hover {
       opacity: 1;
