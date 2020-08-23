@@ -1,23 +1,23 @@
 .social__group_main {
-  margin: auto 0;
+  margin-top: 35px;
   display: flex;
-  flex-direction: column;
-  
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .social__item {
+  margin-right: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45px;
-  
+  width: 30px;
+
   transition: background 0.1s linear;
 }
 
-.social__item:not(:last-child) {
-  margin-bottom: 40px;
-}
+// .social__item:not(:last-child) {
+//   margin-bottom: 40px;
+// }
 
 .social__item:hover .social__icon {
   fill: $color-text-red;
@@ -26,5 +26,5 @@
 .social__icon {
   display: block;
   fill: $color-text-common;
-  height: 45px;
+  height: 30px;
 }
