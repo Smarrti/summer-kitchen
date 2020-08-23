@@ -1,11 +1,11 @@
-.contacts__content {
+.contacts__inner {
     display: flex;
 }
 
 .contacts__map {
     width: 70%;
-    max-width: 765px;
-    height: 515px;
+    max-width: 780px;
+    height: 525px;
 }
 
 .google-map {
@@ -15,11 +15,25 @@
 }
 
 .contacts__schedule {
-    margin-left: 45px;
-    width: 30%;
+    position: relative;
+    margin-left: 20px;
+    padding: 15px 56px 15px 15px;
+    width: 380px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
+    border: 2px solid $color-border-yellow;
+    border-radius: 2px;
+}
+
+.dots__contacts-border {
+    position: absolute;
+    top: 50%;
+    right: -19px;
+    transform: translateY(-50%);
+    border-top: 19px solid $color-border-white;
+    border-bottom: 19px solid $color-border-white;
+    background-color: $color-background-white;
 }
 
 .schedule__item {
@@ -30,8 +44,8 @@
 
 .schedule__title {
     font-size: 1.8rem;
+    line-height: 2.5rem;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .schedule__text {
