@@ -8,14 +8,14 @@
   position: relative;
   margin-bottom: 60px;
   margin-left: 50px;
-  padding: 25px 15px 25px 0;
+  padding: 35px 35px 40px 90px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 600px;
+  width: 630px;
   min-height: 220px;
-  border: 6px solid $color-border-red;
+  border: 2px solid $color-border-yellow;
   border-radius: 2px;
 }
 
@@ -30,20 +30,20 @@
 .reviews__photo {
   position: absolute;
   top: 50%;
-  left: -64px;
+  left: -50px;
   z-index: 1;
   transform: translateY(-50%);
+  width: 100px;
 }
 
 .reviews__text {
   font-size: 1.8rem;
   line-height: 2.5rem;
-  margin-left: 64px;
   margin-bottom: 12px;
 }
 
 .reviews__author {
+  text-align: right;
   font-weight: 700;
-  margin-left: 64px;
   font-size: 1.8rem;
 }
