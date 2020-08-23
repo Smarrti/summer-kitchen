@@ -15,10 +15,6 @@
   transition: background 0.1s linear;
 }
 
-// .social__item:not(:last-child) {
-//   margin-bottom: 40px;
-// }
-
 .social__item:hover .social__icon {
   fill: $color-text-red;
 }

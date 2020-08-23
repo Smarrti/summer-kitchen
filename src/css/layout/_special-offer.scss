@@ -7,13 +7,11 @@
 
 .special-offer__item {
   position: relative;
-  // margin-right: 165px;
   padding: 20px 45px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 380px;
-  // height: 240px;
   font-size: 1.8rem;
   line-height: 2.2rem;
   font-weight: 700;
@@ -31,10 +29,6 @@
 .special-offer__item_socials > p {
   margin-bottom: 5px;
 }
-
-// .special-offer__item:first-child {
-//   margin-left: 60px;
-// }
 
 .dots__square-left {
   position: absolute;
@@ -81,15 +75,6 @@
   border-top: 14px solid #fff;
   border-bottom: 14px solid #fff;
 }
-
-// .special-offer__block {
-//   display: flex;
-//   flex-direction: row;
-//   position: absolute;
-//   top: -50px;
-//   right: 0;
-//   z-index: 1;
-// }
 
 .special-offer__text {
   margin-top: 55px;
