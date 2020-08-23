@@ -63,105 +63,106 @@
                 </div>
             </div>
         </header>
-        
+
         <main class="main">
-            <div class="application">
+            <div class="section">
                 <div class="container">
-                    <div class="application__inner">
-                        <h1 class="application__header page__header">Форма заявки</h1>
-                        <div class="application__content">
-                            <div class="application__item">
-                                <form class="application__form form2" action="">
-                                    <div class="form2__fields">
-                                        <div class="form2__group">
-                                            <input class="form2__input" type="text" name="form2__name" id="f2__name"
-                                                placeholder=" " required>
-                                            <label for="f2__name" class="form2__label">Ваше имя*</label>
-                                        </div>
-                                        <div class="form2__group">
-                                            <input class="form2__input" type="tel" name="form2__tel" id="f2__tel"
-                                                placeholder=" " required>
-                                            <label for="f2__tel" class="form2__label">Ваш телефон*</label>
-                                        </div>
-                                        <div class="form2__group">
-                                            <input class="form2__input" type="email" name="form2__email" id="f2__email"
-                                                placeholder=" " required>
-                                            <label for="f2__email" class="form2__label">Ваш e-mail*</label>
-                                        </div>
-                                        <div class="form2__group">
-                                            <label for="f2__comment" class="form2__label_textarea">Комментарий</label>
-                                            <textarea class="form2__textarea" type="text" name="form2__comment"
-                                                id="f2__comment" placeholder=" "></textarea>
-                                            
-                                        </div>
+                    <div class="section__header">Форма заявки</div>
+                    <div class="section__inner application">
+                        <form class="application__form" action="#" method="POST">
+                            <div class="form__fields">
+                                <div class="form__group">
+                                    <input class="form__input" type="text" name="form__name" id="form__name"
+                                        placeholder=" " required>
+                                    <label class="form__label" for="form__name">Ваше имя*</label>
+                                </div>
+                                <div class="form__group">
+                                    <input class="form__input" type="tel" name="form__tel" id="form__tel"
+                                        placeholder=" " required>
+                                    <label class="form__label" for="form__tel">Ваш телефон*</label>
+                                </div>
+                                <div class="form__group">
+                                    <input class="form__input" type="email" name="form__email" id="form__email"
+                                        placeholder=" " required>
+                                    <label class="form__label" for="form__email">Ваш e-mail*</label>
+                                </div>
+                                <div class="form__group">
+                                    <textarea class="form__input form__input_comment" type="text" name="form__comment"
+                                        id="form__comment" placeholder=" "></textarea>
+                                    <label class="form__label form__label_comment"
+                                        for="form__comment">Комментарий</label>
+                                </div>
 
-                                    </div>
-                                    <div class="form2__terms">
-                                        <input class="terms__checkbox" type="checkbox" name="terms" id="checkbox"
-                                            required>
-                                        <label class="terms__label form2__text" for="checkbox">
-                                            Даю согласие на обработку
-                                            <a class="form__link" href="#">персональных данных</a></label>
-                                    </div>
-                                    <div class="form2__text">*Обязательно к заполнению</div>
-                                    <button class="form2__button button button_red button_longer"
-                                        type="submit">Отправить</button>
-
-                                </form>
                             </div>
-                            <div class="application__item fixed-height">
-                                <img class="application__picture" src="./assets/application/harley.png" alt="Harley Davidson">
-                                <img class="application__dots" src="./assets/dots/dots_filled_horizontal.svg" alt="">
-                                <div class="application__border">border</div>
+                            <div class="form__terms">
+                                <input class="terms__checkbox" type="checkbox" name="terms" id="checkbox" required>
+                                <label class="terms__label" for="checkbox">
+                                    Даю согласие на обработку
+                                    <a class="form__link" href="#">персональных данных</a></label>
                             </div>
-
-
+                            <button class="form__button button button_red button_longer"
+                                type="submit">Отправить</button>
+                        </form>
+                        <div class="decoration__application-page">
+                            <img class="decoration__img_application" src="./assets/application/harley2.png"
+                                alt="Harley">
                         </div>
+                        
+                    </div>
+                    <div class="application__attention">
+                        <p>СПАСИБО! Контактные данные уже переданы сотруднику, с Вами свяжутся в ближайшее время!</p>
+                    </div>
+                    <div class="application__attention application__attention_error">
+                        <p>К сожалению, что-то пошло не так. Возможно, проблемы со связью. Перезагрузите страницу или повторите попытку позже.</p>
                     </div>
                 </div>
-            </div>
-        </main class="main">
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="layout-4-columns">
-                <img class="footer__logo" src="./assets/logo.svg" alt="Логотип">
-                <ul class="footer__links">
-                    <li class="footer__link"><a href="./about.html">О мастерской</a></li>
-                    <li class="footer__link"><a href="#">Помощь</a></li>
-                    <li class="footer__link"><a href="#">Наша команда</a></li>
-                    <li class="footer__link"><a href="#">Пользовательское соглашение</a></li>
-                </ul>
-                <div class="footer__schedule">
-                    <p>Ежедневно с 9:00 до 18:00</p>
-                    <p>г. Ижевск, ул. Маяковского, д. 20</p>
-                    <a href="tel:+73412142536">+7 (3412) 14 25 36</a>
-                    <a href="mailto:Sokol-custom@gmail.ru">Sokol-custom@gmail.ru</a>
-                </div>
-                <div class="footer__social">
-                    <a href="#">
-                        <svg class="social__icon">
-                            <use xlink:href="#vkontakte"></use>
-                        </svg>
-                    </a>
-                    <a href="#">
-                        <svg class="social__icon">
-                            <use xlink:href="#facebook"></use>
-                        </svg>
-                    </a>
-                    <a href="#">
-                        <svg class="social__icon">
-                            <use xlink:href="#instagram"></use>
-                        </svg>
-                    </a>
-                    <a href="#">
-                        <svg class="social__icon">
-                            <use xlink:href="#youtube"></use>
-                        </svg>
-                    </a>
-                </div>
             </div>
-        </footer>
+    </div>
+    </div>
+    </div>
+    </main class="main">
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="layout-4-columns">
+            <img class="footer__logo" src="./assets/logo.svg" alt="Логотип">
+            <ul class="footer__links">
+                <li class="footer__link"><a href="./about.html">О мастерской</a></li>
+                <li class="footer__link"><a href="#">Помощь</a></li>
+                <li class="footer__link"><a href="#">Наша команда</a></li>
+                <li class="footer__link"><a href="#">Пользовательское соглашение</a></li>
+            </ul>
+            <div class="footer__schedule">
+                <p>Ежедневно с 9:00 до 18:00</p>
+                <p>г. Ижевск, ул. Маяковского, д. 20</p>
+                <a href="tel:+73412142536">+7 (3412) 14 25 36</a>
+                <a href="mailto:Sokol-custom@gmail.ru">Sokol-custom@gmail.ru</a>
+            </div>
+            <div class="footer__social">
+                <a href="#">
+                    <svg class="social__icon">
+                        <use xlink:href="#vkontakte"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="social__icon">
+                        <use xlink:href="#facebook"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="social__icon">
+                        <use xlink:href="#instagram"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="social__icon">
+                        <use xlink:href="#youtube"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
     </div>
 </body>
 
