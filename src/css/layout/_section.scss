@@ -17,3 +17,63 @@
 .section-main-after-intro {
     padding-top: 115px;
 }
+
+.section__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__group {
+    margin-bottom: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__group_right {
+    flex-direction: row-reverse;
+}
+
+.section__text {
+    width: 50%;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+
+.section__text > p {
+    margin-bottom: 25px;
+}
+
+.section__text_left {
+    padding-right: 5px;
+}
+
+.section__text_right {
+    padding-left: 40px;
+}
+
+.section__text_important {
+    color: $color-text-red;
+}
+
+.section_subheader {
+    margin-bottom: 40px;
+    font-size: 3.6rem;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.section__img {
+    display: block;
+    width: 50%;
+}
+
+.section__list {
+    list-style: none;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.section-list__marker {
+    color: $color-text-red;
+}
