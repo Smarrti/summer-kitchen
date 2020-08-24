@@ -1,5 +1,6 @@
 .team-content {
-  margin-top: 60px;
+  width: 1180px;
+  margin: 60px auto 0 auto;
   &__header {
     @extend %text-header;
     margin-bottom: 60px;
