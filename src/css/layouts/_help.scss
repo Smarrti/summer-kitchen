@@ -1,0 +1,40 @@
+.help {
+  width: 1125px;
+  margin: 0 auto;
+  &__header {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: $color-primary;
+    margin-bottom: 40px;
+  }
+  &__list > * {
+    font-size: 1.8rem;
+    list-style: none;
+    & > a,
+    & > * > * > a {
+      text-decoration: none;
+      color: $color-text;
+    }
+    & > ol {
+      list-style: none;
+      margin-left: 15px;
+    }
+  }
+  &__text {
+    font-size: 1.8rem;
+    &_red {
+      color: $color-primary;
+      font-weight: 700;
+    }
+    &_bold {
+      color: $color-primary;
+      font-weight: normal;
+      font-size: 2.2rem;
+    }
+  }
+  &__subheader {
+    color: $color-primary;
+    font-size: 2.4rem;
+    margin: 20px 0;
+  }
+}
