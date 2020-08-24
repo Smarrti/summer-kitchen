@@ -17,13 +17,21 @@
   }
   &__description {
     font-size: 1.8rem;
+    width: 370px;
   }
-  &__square {
-    min-width: 35px;
-    min-height: 35px;
-    background: black;
+  &__arrows {
+    display: flex;
+    background: #FFFFFF;
     position: relative;
-    left: -118px;
+    left: -152px;
     border: 5px solid white;
+    & > * {
+      height: 25px;
+      cursor: pointer;
+      &:first-child {
+        margin-right: 15px;
+        transform: rotateY(180deg);
+      }
+    }
   }
 }

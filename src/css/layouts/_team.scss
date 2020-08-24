@@ -1,5 +1,6 @@
 .team-content {
-  margin-top: 60px;
+  width: 1180px;
+  margin: 60px auto 0 auto;
   &__header {
     @extend %text-header;
     margin-bottom: 60px;
@@ -35,7 +36,7 @@
     line-height: 2.2rem;
   }
   &__slider {
-    width: 900px;
+    width: 950px;
     height: 353px;
   }
   &__slide {

@@ -1,24 +1,21 @@
 .about-content {
-  // &__header {
-  //   @extend %text-header;
-  // }
-  &__text-container {
-    &_left {
-      margin-left: 15%;
-    }
-    &_right {
-      margin-right: 15%;
-    }
+  width: 1180px;
+  margin: 0 auto;
+  &__header {
+    @extend %text-header;
   }
   &__subheader {
-    font-size: 2.4rem;
-    margin-bottom: 20px;
+    font-size: 3.6rem;
+    margin: 40px 0;
   }
   &__text,
   &__list {
     font-size: 1.8rem;
     line-height: 2.9rem;
     list-style: none;
+    &_red {
+      color: $color-text-red;
+    }
   }
   &__list {
     margin-top: 10px;
@@ -32,4 +29,3 @@
     margin: 15px 0;
   }
 }
-
