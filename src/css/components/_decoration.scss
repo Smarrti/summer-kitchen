@@ -38,3 +38,21 @@
     border: 3px solid $color-border-yellow;
     border-radius: 2px;
 }
+
+.decoration__application-page {
+    position: absolute;
+    top: none;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 650px;
+    height: 450px;
+}
+
+.decoration__img_application {
+    display: block;
+    position: absolute;
+    bottom: -35px;
+    right: 0;
+    z-index: 999;
+}

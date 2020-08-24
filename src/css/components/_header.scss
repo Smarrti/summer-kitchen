@@ -28,8 +28,9 @@
   }
   &__link {
     & > a {
-      margin-left: 20px;
+      margin-left: 40px;
       font-size: 1.8rem;
+      line-height: 2.2rem;
       text-decoration: none;
       color: $color-text-common;
       opacity: 0.85;
@@ -53,4 +54,8 @@
       text-transform: uppercase;
     }
   }
+}
+
+.header__inner > ul {
+  margin-top: 20px;
 }

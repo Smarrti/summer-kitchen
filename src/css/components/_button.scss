@@ -1,8 +1,8 @@
 .button {
   margin: 0 auto;
-  padding: 5px 15px;
+  padding: 15px 15px;
   display: inline-block;
-  min-width: 140px;
+  min-width: 180px;
   
   background: $color-button-bg-red;
   color: $color-text-white;
@@ -33,6 +33,10 @@
   }
 }
 
-.form__button_main {
-  background-color: #FFBE40;
+// .form__button_main {
+//   background-color: #FFBE40;
+// }
+
+.button_main-intro {
+  margin-top: 35px;
 }
