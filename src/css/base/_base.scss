@@ -19,7 +19,7 @@ html {
 body {
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
-  color: $color-text;
+  color: $color-text-common;
   @include media-full-adaptive {
     width: 95%;
   }

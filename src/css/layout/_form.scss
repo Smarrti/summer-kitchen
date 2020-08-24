@@ -8,6 +8,16 @@
   background: rgba(255, 255, 255, 0.15);
 }
 
+.feedback__form {
+  // margin-top: auto;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 180px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
 .form__title {
   margin-bottom: 18px;
   text-align: center;
@@ -15,11 +25,11 @@
   font-size: 1.4rem;
   line-height: 1.7rem;
   font-weight: 700;
-  color: #fff;
+  color: $color-text-white;
 }
 
 .form__fields {
-  margin-bottom: 15px;
+  // margin-bottom: 15px;
   display: flex;
   flex-direction: column;
 }
@@ -32,27 +42,25 @@
 .form__input {
   padding: 5px;
   width: 100%;
-  
-  background: #FFFFFF;
+
+  background: $color-background-white;
   outline: none;
-  border: 1px solid #C4C4C4;
+  border: 1px solid #c4c4c4;
   border-radius: 2px;
-  
+
   font-size: 1.4rem;
   line-height: 1.7rem;
-  color: #352E2D;
+  color: $color-text-common;
   transition: 0.2s;
 }
 
 .form__input:hover {
-  border: 1px solid #FFBE40;
-  
+  border: 1px solid #ffbe40;
 }
 
 .form__input:focus,
 .form__input:not(:placeholder-shown) {
-  border: 1px solid #FFBE40;
-   
+  border: 1px solid #ffbe40;
 }
 
 .form__label {
@@ -60,11 +68,11 @@
   top: 50%;
   transform: translateY(-50%);
   left: 8px;
-  
+
   transition: 0.2s;
   font-size: 1.4rem;
   line-height: 1.7rem;
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 
 .form__input:focus ~ .form__label,
@@ -73,16 +81,26 @@
   left: 0;
   font-size: 0.9rem;
   line-height: 1.1rem;
-  color: #FFBE40;
+  color: #ffbe40;
 }
 
-.form__button_main {
-  background-color: #FFBE40;
+.service-page_input:hover {
+  border: 1px solid $color-primary;
+}
+
+.service-page_input:focus,
+.service-page_input:not(:placeholder-shown) {
+  border: 1px solid $color-primary;
+}
+
+.service-page_input:focus ~ .service-page_label,
+.service-page_input:not(:placeholder-shown) ~ .service-page_label {
+  color: $color-primary;
 }
 
 .form__text {
   margin-top: 40px;
   font-size: 1.2rem;
   line-height: 1.5rem;
-  color: #FFFFFF;
+  color: $color-text-white;
 }

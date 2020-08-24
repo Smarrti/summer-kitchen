@@ -6,6 +6,10 @@
   margin: 0 auto 90px;
 }
 
+.main_on-services {
+    margin: 0 auto 150px;
+}
+
 /* Container */
 
 .container {
@@ -16,11 +20,11 @@
 }
 
 .page__header {
-  margin-bottom: 40px;
-  max-width: 60%;
-  text-transform: uppercase;
-  text-align: left;
-  font-size: 3.6rem;
-  font-weight: 700;
-  color: #c90000;
+    margin-bottom: 40px;
+    max-width: 60%;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: $color-text-common;
 }

@@ -31,12 +31,17 @@
       margin-left: 20px;
       font-size: 1.8rem;
       text-decoration: none;
-      color: $color-text;
-    }
-    & > a.header__link_on-main {
-      color: #ffffff;
+      color: $color-text-common;
       opacity: 0.85;
       transition: opacity 0.2s linear;
+    }
+    & > a:hover {
+      opacity: 1;
+      text-shadow: 0px 0px 1px #000, 0 0 2em #000;
+    }
+
+    & > a.header__link_on-main {
+      color: $color-text-white;
     }
     & > a.header__link_on-main:hover {
       opacity: 1;
