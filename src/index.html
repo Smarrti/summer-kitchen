@@ -33,7 +33,7 @@
       <div class="container">
         <div class="header__inner">
           <a class="header__logo" href="./index.html" alt="Главная страница">
-            <img src="./assets/logo_white.png" alt="Логотип">
+            <img src="./assets/logo_white.svg" alt="Логотип">
           </a>
           <ul class="header__links">
             <li class="header__link"><a class="header__link header__link_on-main" href="./about.html">О мастерской</a>
@@ -50,41 +50,42 @@
       </div>
     </header>
 
-    <main class="main_on-main">
+    <main class="main main_on-main">
       <!-- Intro -->
       <div class="intro__wrapper">
         <div class="intro">
           <div class="container">
             <div class="intro__inner">
               <div class="intro__group">
-                <h1 class="intro__title">Sokol</h1>
-                <h2 class="intro__subtitle">Кастом мастерская мотоциклов</h2>
-                <p class="intro__text">
-                  Превращаем идеи в результат, демонстрируя быструю и качественную работу. Для Вас мы создадим кастом на
-                  базе
-                  любого мотоцикла. Поможем обрести мечту, создать уникальный байк, стилизовать его исключительно под
-                  Вас.
-                </p>
-                <a class="intro__btn button" href="#">Кастом</a>
+                <h1 class="intro__title">Кастом мастерская мотоциклов</h1>
+                <div class="intro__text">
+                  <p>Превращаем идеи в результат, демонстрируя быструю и качественную работу.
+                    Создаем кастом на базе любого
+                    мотоцикла.</p>
+                  <p>С нашим байком хоть в кругосветное путешествие.</p>
+                </div>
+                <a class="button_main-intro button" href="#">Заказать кастом</a>
 
-                <div class="intro__statistics">
-                  <div class="stat__item">
-                    <div class="stat__counter">683</div>
-                    <div class="stat__text">Довольных клиентов</div>
-                  </div>
-                  <div class="stat__item">
-                    <div class="stat__counter">157</div>
-                    <div class="stat__text">Уникальных байков</div>
-                  </div>
-                  <div class="stat__item">
-                    <div class="stat__counter">5</div>
-                    <div class="stat__text">Кастом проектов в работе</div>
-                  </div>
+
+              </div>
+
+              <div class="intro__statistics">
+                <div class="stat__item">
+                  <div class="stat__counter">431</div>
+                  <div class="stat__text">Кастом произведен за всю историю мотоателье</div>
+                </div>
+                <div class="stat__item">
+                  <div class="stat__counter">18</div>
+                  <div class="stat__text">кастом мотоциклов за 2019 год</div>
+                </div>
+                <div class="stat__item">
+                  <div class="stat__counter">23</div>
+                  <div class="stat__text">Года на рынке</div>
                 </div>
               </div>
 
               <!-- Form -->
-              <form class="feedback__form_main" action="#" method="POST">
+              <!-- <form class="feedback__form_main" action="#" method="POST">
                 <div class="form__title">Обратная связь</div>
                 <div class="form__fields">
                   <div class="form__group">
@@ -106,56 +107,60 @@
                   <p>Оставьте свои контакты и мы Вам перезвоним!</p>
                 </div>
             </div>
-            </form>
+            </form> -->
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Special offer -->
-      <section class="section">
+      <section class="section section-main-after-intro">
         <div class="container">
           <div class="section__header">Акции</div>
           <div class="section__inner special-offers">
             <div class="special-offer__item">
-              <img class="dots__square-left" src="./assets/dots/dots_suqare_filled.svg" alt="">
+              <img class="dots__square-left" src="./assets/dots/dots_square_filled_gray.svg" alt="">
               <p>До конца года закажи кастом и мы покрасим его бесплатно!</p>
               <p>Акция действует до 31.12.2020 включительно.</p>
-              <img class="dots__square-between" src="./assets/dots/dots_rectangle_filled.svg" alt="">
+              <img class="dots__square-right dots__square-right_between-items"
+                src="./assets/dots/dots_square_filled_gray.svg" alt="">
             </div>
             <div class="special-offer__item">
               <p>Зимнее хранение со скидкой 15% если успеешь забронировать место и внести предоплату 50%.</p>
               <p>Акция действует с 01.08.2020 по 27.09.2020 включительно.</p>
-              <img class="dots__square-right" src="./assets/dots/dots_suqare_filled.svg" alt="">
+              <img class="dots__square-right dots__square-right_between-items"
+                src="./assets/dots/dots_square_filled_gray.svg" alt="">
             </div>
-            <!-- Social -->
-            <div class="special-offer__block social">
-              <div class="social__group social__group_main">
-                <a class="social__item" href="#" target="_blank">
-                  <svg class="social__icon">
-                    <use xlink:href="#vkontakte"></use>
-                  </svg>
-                </a>
-                <a class="social__item" href="#" target="_blank" aria-label="Facebook">
-                  <svg class="social__icon">
-                    <use xlink:href="#facebook"></use>
-                  </svg>
-                </a>
-                <a class="social__item" href="#" target="_blank" aria-label="Instagram">
-                  <svg class="social__icon">
-                    <use xlink:href="#instagram"></use>
-                  </svg>
-                </a>
-                <a class="social__item" href="#" target="_blank" aria-label="YouTube">
-                  <svg class="social__icon">
-                    <use xlink:href="#youtube"></use>
-                  </svg>
-                </a>
+            <div class="special-offer__item special-offer__item_socials">
+              <p>Хотите еще акции?</p>
+              <p>В соцсетях их больше!</p>
+              <!-- Social -->
+              <div class="special-offer__block social">
+                <div class="social__group social__group_main">
+                  <a class="social__item" href="#" target="_blank">
+                    <svg class="social__icon">
+                      <use xlink:href="#vkontakte"></use>
+                    </svg>
+                  </a>
+                  <a class="social__item" href="#" target="_blank">
+                    <svg class="social__icon">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                  <a class="social__item" href="#" target="_blank">
+                    <svg class="social__icon">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                  <a class="social__item" href="#" target="_blank">
+                    <svg class="social__icon">
+                      <use xlink:href="#youtube"></use>
+                    </svg>
+                  </a>
+                </div>
               </div>
-              
+              <img class="dots__square-right" src="./assets/dots/dots_square_filled_gray.svg" alt="">
             </div>
-          </div><!-- Social -->
-          <div class="special-offer__text">
-            <p>Хотите еще акции? В соцсетях их больше!</p>
           </div>
         </div>
       </section>
@@ -183,6 +188,8 @@
                 <p>Предоставляем 3 года бесплатного сервиса на наши кастом проеты</p>
               </div>
             </div>
+          </div>
+          <div class="section__inner advantages">
             <div class="advantages__item">
               <img class="advantages__icon" src="./assets/advantages_icons/4.svg" alt="">
               <div class="advantages__text">
@@ -195,7 +202,14 @@
                 <p>Наши специалисты каждый год проходят курсы повышения мастерства</p>
               </div>
             </div>
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./assets/advantages_icons/5.svg" alt="">
+              <div class="advantages__text">
+                <p>Наши специалисты каждый год проходят курсы повышения мастерства</p>
+              </div>
+            </div>
           </div>
+        </div>
       </section>
 
       <!-- Reviews -->

@@ -1,64 +1,64 @@
 .intro {
   padding: 90px 0 100px;
   background-color: rgba(0, 0, 0, 0.64);
-  height: 700px;
+  height: 935px;
 }
 
 .intro__wrapper {
-  height: 700px;
+  height: 935px;
   background: url("../assets/intro_bg.jpg") center no-repeat $color-background-black;
   background-size: cover;
 }
 
 .intro__inner {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .intro__group {
   margin-right: auto;
-  max-width: 700px;
   width: 100%;
+  max-width: 665px;
 }
 
 .intro__title {
-  margin-top: 90px;
-  font-size: 6.4rem;
-  line-height: 7.8rem;
-  font-weight: 500;
-  text-transform: uppercase;
+  margin-top: 150px;
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: 700;
+
   color: $color-text-white;
 }
 
-.intro__subtitle {
-  margin-top: 7px;
-  font-size: 1.8rem;
-  line-height: 2.2px;
-  font-weight: 500;
-  color: $color-text-white;
-}
+// .intro__subtitle {
+//   margin-top: 7px;
+//   font-size: 1.8rem;
+//   line-height: 2.2px;
+//   font-weight: 500;
+//   color: $color-text-white;
+// }
 
 .intro__text {
-  margin-top: 45px;
+  margin-top: 65px;
   display: block;
-  max-width: 100%;
-  font-size: 1.8rem;
-  line-height: 2.5rem;
-  color: $color-text-white;
 }
 
-.intro__btn {
-  margin-top: 15px;
-  width: 180px;
+.intro__text > p {
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  color: $color-text-white;
 }
 
 .intro__statistics {
-  margin-top: 80px;
+  margin-top: 140px;
   display: flex;
 }
 
 .stat__item {
-  margin-left: 30px;
+  margin-left: 60px;
+  width: 340px;
 }
 
 .stat__item:first-child {
@@ -72,7 +72,7 @@
 }
 
 .stat__text {
-  margin-top: 3px;
+  margin-top: 20px;
   font-size: 1.8rem;
   line-height: 2.2rem;
   color: $color-text-white;

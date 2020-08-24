@@ -1,7 +1,7 @@
 .about-content {
-  &__header {
-    @extend %text-header;
-  }
+  // &__header {
+  //   @extend %text-header;
+  // }
   &__text-container {
     &_left {
       margin-left: 15%;
@@ -32,3 +32,4 @@
     margin: 15px 0;
   }
 }
+
