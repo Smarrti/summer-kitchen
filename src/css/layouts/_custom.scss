@@ -3,6 +3,7 @@
   margin: 60px auto 0 auto;
   &__header {
     @extend %text-header;
+    margin-bottom: 75px;
   }
   &__text {
     font-size: 1.8rem;
