@@ -63,6 +63,7 @@
     display: flex;
     width: 800px;
     margin: 0 auto;
+    transform: scale(0.8) translateX(-80px);
   }
   &__dots {
     content: '';
@@ -81,9 +82,9 @@
       position: relative;
       top: 90px;
       left: -60px;
-      width: 433px;
+      width: 400px;
       height: 201px;
-      border: 3px solid $color-primary;
+      border: 3px solid $color-additional;
     }
   }
 }
