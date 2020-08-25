@@ -1,14 +1,12 @@
 .custom-content {
-  margin-top: 60px;
+  width: 1180px;
+  margin: 60px auto 0 auto;
   &__header {
     @extend %text-header;
   }
-  &__text-container-left {
-    margin-left: 15%;
-    & > p {
-      font-size: 1.8rem;
-      line-height: 22px;
-    }
+  &__text {
+    font-size: 1.8rem;
+    line-height: 22px;
   }
   &__photo {
     width: 100%;
