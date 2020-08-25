@@ -7,25 +7,27 @@
   }
   &__text {
     font-size: 1.8rem;
-    line-height: 22px;
+    line-height: 25px;
   }
   &__photo {
     width: 100%;
   }
   &__offers {
-    padding: 40px 15% 0;
+    margin-top: 75px;
+  }
+  &__table {
+    margin-bottom: 38px;
   }
 }
 
 .custom-offer {
-  width: 433px;
-  height: 201px;
+  width: 379px;
+  height: 262px;
   margin: 0 auto;
-  padding-top: 20px;
-  border: 3px solid $color-additional;
+  border: 3px solid $color-primary;
   &__content {
     width: 250px;
-    margin: 0 auto;
+    margin: 38px 0 0 79px;
   }
   &__text {
     font-size: 1.8rem;
@@ -33,7 +35,7 @@
   }
   &__service {
     font-size: 1.8rem;
-    color: $color-gray-text;
+    color: $color-text;
   }
   &__price {
     font-size: 1.8rem;
@@ -48,10 +50,11 @@
     height: 81px;
     background: url("../assets/dots/dots_form.png") #ffffff;
     background-repeat: no-repeat;
+    background-position: center;
     border: 3px solid #ffffff;
     position: relative;
-    top: -88px;
-    left: -37px;
+    top: -122px;
+    left: -43px;
   }
 }
 
