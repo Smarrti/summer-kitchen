@@ -4,6 +4,9 @@
   grid-column-gap: 10px;
   margin-top: 25px;
   width: 100%;
+  &_custom {
+    grid-column-gap: 83px;
+  }
 }
 
 .layout-3-columns {
