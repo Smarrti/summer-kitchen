@@ -16,7 +16,6 @@ const swiper = new Swiper('.team-content__slider', {
 });
 
 body.addEventListener('click', (e) => {
-  e.preventDefault();
   const { target } = e;
   switch (true) {
     case target.classList.contains('slide__arrows_forward'):
