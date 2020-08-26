@@ -182,6 +182,10 @@ const config = {
       template: './src/form.html',
       filename: './form.html'
     }),
+    new HtmlWebPackPlugin({
+      template: './src/projects.html',
+      filename: './projects.html'
+    }),
     new CopyWebpackPlugin([
       {
         from: './src/assets',
