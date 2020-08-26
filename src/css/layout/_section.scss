@@ -6,7 +6,7 @@
 .section__header {
     margin-right: auto;
     margin-bottom: 70px;
-    max-width: 60%;
+    max-width: 100%;
     text-align: left;
     font-size: 6rem;
     line-height: 1;
@@ -54,6 +54,16 @@
 
 .section__text_important {
     color: $color-text-red;
+}
+
+.section__text_projects .section__text_right  {
+    margin: auto 0;
+    padding-left: 90px;
+}
+
+.section__text_projects .section__text_left  {
+    margin: auto 0;
+    padding-right: 90px;
 }
 
 .section_subheader {
