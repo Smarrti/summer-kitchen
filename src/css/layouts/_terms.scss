@@ -2,16 +2,19 @@
   width: 1120px;
   margin: 0 auto;
   &__header {
+    @extend %text-header;
+    font-size: 5.0rem;
+    margin-bottom: 75px;
+  }
+  &__subheader {
+    @extend %text-header;
     font-size: 3.6rem;
-    font-weight: 700;
-    color: $color-primary;
-    margin-bottom: 26px;
+    margin: 75px 0 38px 0;
   }
   &__text {
     font-size: 1.8rem;
     &_red {
       color: $color-primary;
-      font-weight: 700;
     }
   }
 }

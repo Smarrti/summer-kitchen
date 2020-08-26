@@ -7,6 +7,9 @@
   &_custom {
     grid-column-gap: 83px;
   }
+  &_help {
+    grid-template-columns: 24% 75%;
+  }
 }
 
 .layout-3-columns {

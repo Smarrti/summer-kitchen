@@ -2,39 +2,34 @@
   width: 1125px;
   margin: 0 auto;
   &__header {
-    font-size: 3.6rem;
-    font-weight: 700;
-    color: $color-primary;
-    margin-bottom: 40px;
+    @extend %text-header;
+    margin-bottom: 75px;
   }
   &__list > * {
     font-size: 1.8rem;
     list-style: none;
-    & > a,
-    & > * > * > a {
+    margin-bottom: 30px;
+    & > a {
       text-decoration: none;
       color: $color-text;
-    }
-    & > ol {
-      list-style: none;
-      margin-left: 15px;
+      font-weight: bold;
     }
   }
   &__text {
     font-size: 1.8rem;
-    &_red {
-      color: $color-primary;
-      font-weight: 700;
-    }
     &_bold {
       color: $color-primary;
       font-weight: normal;
       font-size: 2.2rem;
     }
+    &_red {
+      color: $color-primary;
+    }
   }
   &__subheader {
-    color: $color-primary;
+    @extend %text-header;
     font-size: 2.4rem;
-    margin: 20px 0;
+    font-weight: 600;
+    margin: 0 0 38px;
   }
 }
