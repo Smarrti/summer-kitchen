@@ -10,6 +10,11 @@
   &_help {
     grid-template-columns: 24% 75%;
   }
+  &_about {
+    @include media-desktop {
+      grid-template-columns: 100%;
+    }
+  }
 }
 
 .layout-3-columns {

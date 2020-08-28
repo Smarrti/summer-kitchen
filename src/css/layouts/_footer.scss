@@ -6,6 +6,9 @@
   padding-top: 34px;
   font-size: 1.4rem;
   border-top: 1px solid $color-footer-line;
+  @include media-desktop {
+    width: 95%;
+  }
   &__logo-content {
     display: flex;
     flex-direction: column;

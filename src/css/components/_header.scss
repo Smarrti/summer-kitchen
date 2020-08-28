@@ -16,6 +16,12 @@
     align-items: center;
   }
 
+  &__logo > img {
+    @include media-desktop {
+      width: 150px;
+    }
+  }
+
   &__links {
     display: flex;
     justify-content: space-between;
@@ -34,6 +40,10 @@
       color: $color-text-common;
       opacity: 0.85;
       transition: opacity 0.2s linear;
+      @include media-desktop {
+        font-size: 1.6rem;
+        margin-left: 15px;
+      }
     }
     & > a:hover {
       opacity: 1;

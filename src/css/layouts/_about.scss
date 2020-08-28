@@ -1,8 +1,14 @@
 .about-content {
   width: 1180px;
   margin: 0 auto;
+  @include media-desktop {
+    width: 95%;
+  }
   &__header {
     @extend %text-header;
+    @include media-desktop {
+      font-size: 5rem;
+    }
   }
   &__subheader {
     font-size: 3.6rem;
