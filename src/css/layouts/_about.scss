@@ -6,13 +6,14 @@
   }
   &__subheader {
     font-size: 3.6rem;
-    margin: 40px 0;
+    margin: 40px 0 40px 10px;
   }
   &__text,
   &__list {
     font-size: 1.8rem;
     line-height: 2.9rem;
     list-style: none;
+    margin-left: 10px;
     &_red {
       color: $color-text-red;
     }
