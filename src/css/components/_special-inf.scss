@@ -5,10 +5,8 @@
     z-index: 1;
 }
 
-
 .special-inf__inner {
     padding: 40px 60px 40px 85px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,10 +22,6 @@
     font-size: 1.8rem;
     line-height: 2.2rem;
     color: $color-text-common;
-}
-
-.special-inf__text > p {
-    margin-bottom: 20px;
 }
 
 .special-inf__phone {
