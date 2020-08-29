@@ -39,6 +39,10 @@
     background: $color-background-table-accent;
 }
 
+.services__table tr:first-child {
+    background: none;
+}
+
 .services__table td {
     padding: 18px 20px;
 }
