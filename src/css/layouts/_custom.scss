@@ -1,9 +1,18 @@
 .custom-content {
   width: 1180px;
   margin: 60px auto 0 auto;
+  overflow: hidden;
+  @include media-desktop {
+    width: 100%;
+    padding: 0 41px;
+  }
   &__header {
     @extend %text-header;
     margin-bottom: 75px;
+    @include media-desktop {
+      margin-top: 70px;
+      font-size: 5rem;
+    }
   }
   &__text {
     font-size: 1.8rem;
@@ -64,6 +73,10 @@
     width: 800px;
     margin: 0 auto;
     transform: scale(0.8) translateX(-80px);
+    @include media-desktop {
+      width: 380px;
+      transform: scale(0.7) translateX(-187px);
+    }
   }
   &__dots {
     content: '';
