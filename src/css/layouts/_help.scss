@@ -2,6 +2,10 @@
   &__header {
     @extend %text-header;
     margin-bottom: 75px;
+    @include media-desktop {
+      margin-top: 70px;
+      font-size: 5rem;
+    }
   }
   &__list {
     &_sublist {
