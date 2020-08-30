@@ -35,6 +35,7 @@
         <div class="header__inner">
           <a class="header__logo" href="./index.html" alt="Главная страница">
             <img src="./assets/logo.svg" alt="Логотип">
+            <p class="header__phone">+7 (3412) 14 25 36</p>
           </a>
           <ul class="header__links">
             <li class="header__link"><a class="header__link" href="./about.html">О мастерской</a>
@@ -51,16 +52,18 @@
       </div>
     </header>
     <main class="main">
-      <div class="help">
+      <div class="help container">
         <h1 class="help__header">Помощь</h1>
         <div class="layout-2-columns layout-2-columns_help">
           <ul class="help__list">
-            <li><a href="#">Главная</a>
-            <li><a href="#">О мастерской</a></li>
-            <li><a href="#">Кастом</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Реализованные проекты</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Главная</a></li>
+            <ul class="help__list help__list_sublist">
+              <li><a href="#">О мастерской</a></li>
+              <li><a href="#">Кастом</a></li>
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">Реализованные проекты</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
             <li><a href="#">Форма заявки</a></li>
             <li><a href="#">Помощь</a></li>
             <li><a href="#">Пользовательское соглашение</a></li>
@@ -138,7 +141,7 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="layout-4-columns">
+      <div class="layout-4-columns container">
         <div class="footer__logo-content">
           <img class="footer__logo" src="./assets/logo.svg" alt="Логотип">
           <a class="footer__terms" href="./terms.html">Пользовательское соглашение</a>

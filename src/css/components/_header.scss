@@ -16,9 +16,22 @@
     align-items: center;
   }
 
-  &__logo > img {
+  &__logo {
+    text-align: center;
+    text-decoration: none;
+    & > img {
+      @include media-desktop {
+        width: 150px;
+      }
+    }
+  }
+
+  &__phone {
+    margin-top: 8px;
+    color: $color-primary;
+    font-size: 1.8rem;
     @include media-desktop {
-      width: 150px;
+      font-size: 1.6rem;
     }
   }
 

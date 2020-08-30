@@ -1,10 +1,15 @@
 .terms {
   width: 1120px;
   margin: 0 auto;
+  @include media-desktop {
+    width: 100%;
+    padding: 0 47px;
+  }
   &__header {
     @extend %text-header;
     font-size: 5.0rem;
     margin-bottom: 75px;
+
   }
   &__subheader {
     @extend %text-header;

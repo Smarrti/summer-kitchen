@@ -5,7 +5,8 @@
   margin-top: 25px;
   width: 100%;
   &_custom {
-    grid-column-gap: 83px;
+    grid-column-gap: 25px;
+    grid-template-columns: 48% 48%;
   }
   &_help {
     grid-template-columns: 24% 75%;
