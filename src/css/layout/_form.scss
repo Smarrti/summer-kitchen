@@ -1,8 +1,17 @@
 .application__form {
+  position: relative;
   padding: 40px 90px 40px 100px;
   width: 570px;
   border: 2px solid $color-border-red;
   border-radius: 2px;
+}
+
+.dots__appication-form {
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  z-index: 1;
+  transform: translateY(-50%);
 }
 
 .form__fields {
@@ -30,6 +39,7 @@
 .form__input_comment {
   min-height: 100px;
   resize: vertical;
+  line-height: 2.2rem;
 }
 
 .form__input:hover {
@@ -74,14 +84,16 @@
 .form__terms {
   margin-bottom: 25px;
   position: relative;
-  font-size: 1.8rem;
-  line-height: 2.5rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
 }
 
 .terms__label {
-  margin-left: auto;
+  margin-left: 32px;
   display: block;
   width: 320px;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
 }
 
 .form__link {

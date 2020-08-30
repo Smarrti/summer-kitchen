@@ -1,25 +1,35 @@
 .advantages {
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
 }
 
+.advantages:last-child {
+    margin-bottom: 0;
+}
+
 .advantages__item {
-    padding-right: 100px;
     position: relative;
-    margin-bottom: 40px;
+    margin-left: 20px;
+    padding: 25px;
+    width: 380px;
+
     display: flex;
     flex: 1 1 0;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    border: 2px solid $color-border-gray;
+    border-radius: 2px;
 }
 
-.advantages__item:last-child {
-    padding-right: 0;
+.advantages__item:first-child {
+    margin-left: 0;
 }
 
 .advantages__icon {
-    margin-bottom: 30px;
-    width: 50px;
+    margin-bottom: 25px;
+    height: 50px;
     text-align: center;
 }
 

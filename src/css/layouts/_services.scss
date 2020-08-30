@@ -23,53 +23,33 @@
     border-collapse: collapse;
 }
 
-th {
-    padding-bottom: 20px;
+.services__table th {
+    padding: 18px 20px;
     border: none;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     line-height: 1;
     font-weight: 700;
 }
 
-td {
-    padding: 12px 20px;
-    border: 1px solid $color-text-common;
+.services__table tr {
+    border: 1px solid $color-border-gray;
+}
+
+.services__table tr:nth-child(odd) {
+    background: $color-background-table-accent;
+}
+
+.services__table tr:first-child {
+    background: none;
+}
+
+.services__table td {
+    padding: 18px 20px;
 }
 
 .price {
     color: $color-text-red;
 }
-
-// .services__picture {
-//     margin: auto auto 0;
-//     display: block;
-//     width: 510px;
-//     height: 290px;
-//     z-index: 999;
-//     background-color: transparent;
-// }
-
-// .services__dots {
-//     position: absolute;
-//     top: 50%;
-//     right: 0;
-//     z-index: 1;
-//     transform: translateY(-50%);
-// }
-
-// .services__border {
-//     position: absolute;
-//     top: -50px;
-//     right: -45px;
-//     z-index: 1;
-//     display: block;
-//     width: 344px;
-//     height: 344px;
-//     font-size: 0rem;
-//     color: transparent;
-//     background-color: transparent;
-//     border: 3px solid $color-primary;
-// }
 
 .service__form {
     margin: 0 auto auto;

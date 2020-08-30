@@ -5,7 +5,7 @@
 
 .section__header {
     margin-right: auto;
-    margin-bottom: 70px;
+    margin-bottom: 75px;
     max-width: 100%;
     text-align: left;
     font-size: 6rem;
@@ -61,12 +61,12 @@
     color: $color-text-red;
 }
 
-.section__text_projects .section__text_right  {
+.section__text_projects .section__text_right {
     margin: auto 0;
     padding-left: 90px;
 }
 
-.section__text_projects .section__text_left  {
+.section__text_projects .section__text_left {
     margin: auto 0;
     padding-right: 90px;
 }
@@ -79,8 +79,28 @@
 }
 
 .section__img {
-    display: block;
+    position: relative;
     width: 50%;
+}
+
+.section__img > img {
+    display: block;
+    width: 100%;
+}
+
+.img__label {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    padding: 5px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+
+    background: #ffffff;
+    border: none;
+    border-radius: 2px;
 }
 
 .section__list {
@@ -89,6 +109,15 @@
     line-height: 2.5rem;
 }
 
+.section__list > li {
+    position: relative;
+    padding-left: 27px;
+}
+
 .section-list__marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
     color: $color-text-red;
 }

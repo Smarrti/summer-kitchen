@@ -7,10 +7,10 @@
 
 .special-offer__item {
   position: relative;
-  padding: 20px 45px;
+  padding: 23px 27px 23px 45px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   width: 380px;
   font-size: 1.8rem;
   line-height: 2.2rem;
@@ -21,8 +21,12 @@
   border-radius: 2px;
 }
 
+.special-offer__item > p {
+  margin-bottom: 25px;
+}
+
 .special-offer__item_socials {
-  width: 334px;
+  padding-left: 95px;
   font-weight: 400;
 }
 
@@ -59,7 +63,7 @@
 }
 
 .dots__square-right_between-items {
-  right: -55px;
+  right: -44px;
 }
 
 .dots__square-between {
