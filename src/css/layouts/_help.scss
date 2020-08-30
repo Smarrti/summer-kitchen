@@ -1,6 +1,4 @@
 .help {
-  width: 1125px;
-  margin: 0 auto;
   &__header {
     @extend %text-header;
     margin-bottom: 75px;
@@ -9,14 +7,19 @@
     font-size: 1.8rem;
     list-style: none;
     margin-bottom: 30px;
+    @include media-desktop {
+      font-size: 1.6rem;
+    }
     & > a {
       text-decoration: none;
       color: $color-text;
-      font-weight: bold;
     }
   }
   &__text {
     font-size: 1.8rem;
+    @include media-desktop {
+      font-size: 1.6rem;
+    }
     &_bold {
       color: $color-primary;
       font-weight: normal;
