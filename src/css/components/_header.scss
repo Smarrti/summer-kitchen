@@ -19,6 +19,7 @@
   &__logo {
     text-align: center;
     text-decoration: none;
+    margin-top: 20px;
     & > img {
       @include media-desktop {
         width: 150px;
