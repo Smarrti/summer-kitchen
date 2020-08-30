@@ -3,18 +3,24 @@
     @extend %text-header;
     margin-bottom: 75px;
   }
-  &__list > * {
-    font-size: 1.8rem;
-    list-style: none;
-    margin-bottom: 30px;
-    @include media-desktop {
-      font-size: 1.6rem;
+  &__list {
+    &_sublist {
+      margin-left: 20px;
     }
-    & > a {
-      text-decoration: none;
-      color: $color-text;
+    & > * {
+      font-size: 1.8rem;
+      list-style: none;
+      margin-bottom: 30px;
+      @include media-desktop {
+        font-size: 1.6rem;
+      }
+      & > a {
+        text-decoration: none;
+        color: $color-text;
+      }
     }
   }
+   
   &__text {
     font-size: 1.8rem;
     @include media-desktop {
