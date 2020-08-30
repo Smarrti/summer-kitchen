@@ -1,17 +1,22 @@
 .services {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .services__text {
     position: relative;
     margin-bottom: 40px;
     font-size: 1.8rem;
+    @include media-desktop {
+        font-size: 1.6rem;
+    }
 }
 
 .services__group {
     position: relative;
     display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .services__table {
@@ -21,6 +26,10 @@
     font-size: 1.8rem;
     line-height: 1;
     border-collapse: collapse;
+    @include media-desktop {
+        max-width: 492px;
+        font-size: 1.6rem;
+    }
 }
 
 .services__table th {
@@ -29,6 +38,9 @@
     font-size: 1.8rem;
     line-height: 1;
     font-weight: 700;
+    @include media-desktop {
+        font-size: 1.6rem;
+    }
 }
 
 .services__table tr {

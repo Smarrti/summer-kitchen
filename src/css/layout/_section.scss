@@ -1,6 +1,9 @@
 .section {
     margin: 0 auto;
     padding-top: 150px;
+    @include media-desktop {
+        padding-top: 70px;
+    }
 }
 
 .section__header {
@@ -12,6 +15,10 @@
     line-height: 1;
     font-weight: 700;
     color: $color-section-header;
+    @include media-desktop {
+        margin-bottom: 50px;
+        font-size: 5rem;
+    }
 }
 
 .section-main-after-intro {
@@ -28,21 +35,46 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    @include media-desktop {
+        margin-bottom: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 50px 0 47px;
+        border-bottom: 1px solid $color-border-gray;
+    }
+}
+
+.section__group:last-child {
+    @include media-desktop {
+        padding-bottom: 0;
+        border: none;
+    }
 }
 
 .section__group_right {
     flex-direction: row-reverse;
+    @include media-desktop {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
 
 .section__subheader {
     font-size: 1.8rem;
     margin-bottom: 40px;
+    @include media-desktop {
+        margin-bottom: 0;
+        font-size: 1.6rem;
+    }
 }
 
 .section__text {
     width: 50%;
     font-size: 1.8rem;
     line-height: 2.6rem;
+    @include media-desktop {
+        font-size: 1.6rem;
+    }
 }
 
 .section__text > p {
@@ -64,11 +96,19 @@
 .section__text_projects .section__text_right {
     margin: auto 0;
     padding-left: 90px;
+    @include media-desktop {
+        margin-top: 25px;
+        padding-left: 0;
+    }
 }
 
 .section__text_projects .section__text_left {
     margin: auto 0;
     padding-right: 90px;
+    @include media-desktop {
+        margin-top: 25px;
+        padding-right: 0;
+    }
 }
 
 .section_subheader {
@@ -107,6 +147,9 @@
     list-style: none;
     font-size: 1.8rem;
     line-height: 2.5rem;
+    @include media-desktop {
+        font-size: 1.6rem;
+    }
 }
 
 .section__list > li {

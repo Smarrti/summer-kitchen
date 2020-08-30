@@ -7,6 +7,9 @@
     font-size: 1.8rem;
     line-height: 2.2rem;
     color: $color-text-red;
+    @include media-desktop {
+        font-size: 1.6rem;;
+    }
 }
 
 .application__attention_error {
@@ -14,4 +17,7 @@
     font-size: 1.8rem;
     line-height: 2.2rem;
     color: $color-text-common;
+    @include media-desktop {
+        font-size: 1.6rem;;
+    }
 }
