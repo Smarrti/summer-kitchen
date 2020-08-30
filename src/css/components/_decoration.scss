@@ -46,6 +46,9 @@
     z-index: 1;
     width: 650px;
     height: 450px;
+    @include media-desktop {
+        width: 486px;
+    }
 }
 
 .decoration__img_application {
@@ -54,4 +57,8 @@
     bottom: -35px;
     right: 0;
     z-index: 999;
+    @include media-desktop {
+        width: 486px;
+        bottom: -25px;
+    }
 }

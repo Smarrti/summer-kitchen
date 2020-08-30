@@ -1,6 +1,9 @@
 .section {
     margin: 0 auto;
     padding-top: 150px;
+    @include media-desktop {
+        padding-top: 70px;
+    }
 }
 
 .section__header {
@@ -12,6 +15,9 @@
     line-height: 1;
     font-weight: 700;
     color: $color-section-header;
+    @include media-desktop {
+        font-size: 5rem;
+    }
 }
 
 .section-main-after-intro {
