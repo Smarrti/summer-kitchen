@@ -4,6 +4,10 @@
   width: 570px;
   border: 2px solid $color-border-red;
   border-radius: 2px;
+  @include media-desktop {
+    padding: 30px 70px 30px 80px;
+    width: 454px;
+  }
 }
 
 .dots__appication-form {
@@ -34,6 +38,9 @@
   font-size: 1.8rem;
   line-height: 1.2rem;
   transition: 0.2s;
+  @include media-desktop {
+    width: 100%;
+  }
 }
 
 .form__input_comment {
@@ -65,6 +72,9 @@
   font-size: 1.8rem;
   line-height: 2.2rem;
   color: $color-form-label;
+  @include media-desktop {
+    font-size: 1.6rem;
+  }
 }
 
 .form__label_comment {

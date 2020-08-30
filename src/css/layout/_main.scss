@@ -1,5 +1,8 @@
 .main {
   margin: 90px auto 150px;
+  @include media-desktop {
+    margin-bottom: 120px;
+  }
 }
 
 .main_on-main {
@@ -15,6 +18,9 @@
   padding: 0 15px;
   width: 100%;
   max-width: 1210px;
+  @include media-desktop {
+    max-width: 1054px;
+  }
 }
 
 // .page__header {
