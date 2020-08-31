@@ -1,0 +1,68 @@
+.services {
+    display: flex;
+    flex-direction: row;
+}
+
+.services__text {
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+    @include media-desktop {
+        font-size: 1.6rem;
+    }
+}
+
+.services__group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.services__table {
+    text-align: left;
+    width: 100%;
+    max-width: 530px;
+    font-size: 1.8rem;
+    line-height: 1;
+    border-collapse: collapse;
+    @include media-desktop {
+        max-width: 492px;
+        font-size: 1.6rem;
+    }
+}
+
+.services__table th {
+    padding: 18px 20px;
+    border: none;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 700;
+    @include media-desktop {
+        font-size: 1.6rem;
+    }
+}
+
+.services__table tr {
+    border: 1px solid $color-border-gray;
+}
+
+.services__table tr:nth-child(odd) {
+    background: $color-background-table-accent;
+}
+
+.services__table tr:first-child {
+    background: none;
+}
+
+.services__table td {
+    padding: 18px 20px;
+}
+
+.price {
+    color: $color-text-red;
+}
+
+.service__form {
+    margin: 0 auto auto;
+}

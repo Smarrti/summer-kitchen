@@ -1,0 +1,34 @@
+.main {
+  margin: 90px auto 150px;
+  @include media-desktop {
+    margin-bottom: 120px;
+  }
+}
+
+.main_on-main {
+  margin-top: 0;
+}
+
+.main_on-services {
+  margin-bottom: 150px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1210px;
+  @include media-desktop {
+    max-width: 1054px;
+  }
+}
+
+// .page__header {
+//   margin-bottom: 40px;
+//   max-width: 60%;
+//   text-transform: uppercase;
+//   text-align: left;
+//   font-size: 3.6rem;
+//   font-weight: 700;
+//   color: $color-text-common;
+// }

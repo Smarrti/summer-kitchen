@@ -1,0 +1,42 @@
+.button {
+  margin: 0 auto;
+  padding: 15px 15px;
+  display: inline-block;
+  min-width: 180px;
+  
+  background: $color-button-bg-red;
+  color: $color-text-white;
+
+  text-decoration: none;
+  text-align: center;
+  vertical-align: top;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  &:hover {
+    background: $color-primary-darken;
+  }
+  // &_big {
+  //   padding: 11px 15px;
+  //   width: 210px;
+  //   text-transform: uppercase;
+  // }
+  // &_red {
+  //   background: linear-gradient(180deg, $color-primary 0%, $color-primary-darken 100%);
+  // }
+  &_longer {
+    width: 100%;
+  }
+}
+
+// .form__button_main {
+//   background-color: #FFBE40;
+// }
+
+.button_main-intro {
+  margin-top: 35px;
+}

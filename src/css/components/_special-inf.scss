@@ -1,0 +1,43 @@
+.special-inf {
+    position: relative;
+    margin-left: auto;
+}
+
+.special-inf__inner {
+    padding: 40px 60px 40px 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 505px;
+    height: 195px;
+
+    border: 3px solid $color-border-red;
+    border-radius: 2px;
+    @include media-desktop {
+        padding: 20px 20px 20px 46px;
+        width: 377px;
+        height: 150px;
+        border-width: 2px;
+    }
+}
+
+.special-inf__text {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: $color-text-common;
+    @include media-desktop {
+        font-size: 1.6rem;
+    }
+}
+
+.special-inf__phone {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: $color-text-red;
+    @include media-desktop {
+        font-size: 3rem;
+    }
+}

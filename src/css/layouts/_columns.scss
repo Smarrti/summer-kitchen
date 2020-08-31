@@ -1,0 +1,34 @@
+.layout-2-columns {
+  display: grid;
+  grid-template-columns: 49% 50%;
+  grid-column-gap: 10px;
+  margin-top: 25px;
+  width: 100%;
+  &_custom {
+    grid-column-gap: 25px;
+    grid-template-columns: 48% 48%;
+  }
+  &_help {
+    grid-template-columns: 24% 75%;
+  }
+  &_about {
+    @include media-desktop {
+      grid-template-columns: 100%;
+    }
+  }
+}
+
+.layout-3-columns {
+  display: grid;
+  grid-template-columns: 33% 32% 33%;
+  grid-column-gap: 10px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.layout-4-columns {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 25%;
+  grid-column-gap: 10px;
+  width: 100%;
+}

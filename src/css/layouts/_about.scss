@@ -1,0 +1,38 @@
+.about-content {
+  width: 1180px;
+  margin: 0 auto;
+  @include media-desktop {
+    width: 95%;
+  }
+  &__header {
+    @extend %text-header;
+    @include media-desktop {
+      font-size: 5rem;
+    }
+  }
+  &__subheader {
+    font-size: 3.6rem;
+    margin: 40px 0 40px 10px;
+  }
+  &__text,
+  &__list {
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+    list-style: none;
+    margin-left: 10px;
+    &_red {
+      color: $color-text-red;
+    }
+  }
+  &__list {
+    margin-top: 10px;
+  }
+  &__marker {
+    font-weight: 700;
+    color: $color-text-red;
+  }
+  &__photo {
+    width: 100%;
+    margin: 15px 0;
+  }
+}

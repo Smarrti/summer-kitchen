@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  @include media-desktop {
+    font-size: 9.5px;
+  }
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  color: $color-text-common;
+}
+
+p {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,53 @@
+.team-content {
+  width: 1180px;
+  margin: 60px auto 0 auto;
+  @include media-desktop {
+    width: 95%;
+  }
+  &__header {
+    @extend %text-header;
+    margin-top: 90px;
+    margin-bottom: 60px;
+  }
+  &__person {
+    display: flex;
+    flex-direction: column;
+    & > h2 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+    & > p {
+      font-size: 1.8rem;
+    }
+  }
+  &__quote {
+    display: flex;
+    align-items: flex-end;
+    flex: 1 0 auto;
+    font-size: 1.8rem;
+    & > p {
+      display: flex;
+      & > span {
+        margin-right: 7px;
+        border-right: 8px solid $color-text-common;
+      }
+    }
+  }
+  &__description {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  &__slider {
+    width: 950px;
+    height: 353px;
+    @include media-desktop {
+      width: 100%;
+    }
+  }
+  &__slide {
+    display: flex;
+    align-items: center;
+  }
+}

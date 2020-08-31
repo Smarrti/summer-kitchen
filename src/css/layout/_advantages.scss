@@ -1,0 +1,35 @@
+.advantages {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 20px;
+}
+
+.advantages:last-child {
+    margin-bottom: 0;
+}
+
+.advantages__item {
+    position: relative;
+    padding: 25px;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $color-border-gray;
+    border-radius: 2px;
+}
+
+.advantages__icon {
+    margin-bottom: 25px;
+    height: 50px;
+    text-align: center;
+}
+
+.advantages__text {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: $color-text-common;
+}

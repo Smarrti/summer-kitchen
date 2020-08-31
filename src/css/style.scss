@@ -1,0 +1,36 @@
+@import "./abstract/constants";
+@import "./abstract/mixins";
+@import "./abstract/placeholders";
+
+@import "./base/base";
+
+@import "./components/header";
+@import "./components/button";
+@import "./components/sidebar";
+@import "./components/social-icons";
+@import "./components/slider-team";
+@import "./components/special-inf";
+@import "./components/decoration";
+@import "./components/table";
+
+@import "./layout/main";
+@import "./layout/intro";
+@import "./layout/form";
+@import "./layout/section";
+@import "./layout/special-offer";
+@import "./layout/advantages";
+@import "./layout/reviews";
+
+
+@import "./layouts/columns";
+@import "./layouts/about";
+@import "./layouts/team";
+@import "./layouts/footer";
+@import "./layouts/custom";
+@import "./layouts/contacts";
+@import "./layouts/services";
+@import "./layouts/application";
+@import "./layouts/footer";
+@import "./layouts/help";
+@import "./layouts/terms";
+@import "./layouts/form-request";

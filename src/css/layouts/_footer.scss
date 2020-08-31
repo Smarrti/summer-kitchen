@@ -1,0 +1,66 @@
+.footer {
+  display: flex;
+  max-width: 1360px;
+  margin: 0 auto 20px;
+  padding-top: 34px;
+  font-size: 1.4rem;
+  border-top: 1px solid $color-footer-line;
+  @include media-desktop {
+    width: 95%;
+  }
+  &__logo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 80%;
+  }
+  &__terms {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #6F6F6F;
+  }
+  &__links {
+    list-style: none;
+  }
+  &__link {
+    font-weight: 600;
+  }
+  &__link,
+  &__schedule > * {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: $color-text-common;
+    font-size: 1.4rem;
+    &:hover {
+      color: $color-text-red;
+    }
+    & > a {
+      text-decoration: none;
+      color: $color-text-common;
+      &:hover {
+        color: $color-text-red;
+      }
+    }
+  }
+  &__schedule-header {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  &__social {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 80%;
+    & > *:not(:last-child) {
+      margin-right: 15px;
+    }
+    & > a > svg {
+      width: 27px;
+      &:hover {
+        fill: #c90000;
+      }
+    }
+  }
+}
